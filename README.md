@@ -1,3 +1,5 @@
+- For content : https://burnabycomputerrepair.com/ContactUs.htm
+
 If you can suggest a better design - feel free to make any suggestions about how to make it better. If not, just slice this design into plain HTML pages and an CSS File.
 store all images in the /images folder and store any CSS file(s) in the /CSS folder.
 

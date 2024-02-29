@@ -170,6 +170,10 @@
     padding: 0 15px;
   }
 
+  .qr_code_section .qr_code_images {
+    flex-direction: column;
+  }
+
   footer .footer-content {
     text-align: center;
   }

@@ -129,6 +129,11 @@ header .nav-mid-content ul li a {
   padding: 0 10px;
 }
 
+header .nav-mid-content ul li a:hover {
+  color: var(--bg-secondary--);
+  transition: 0.5s ease-in-out;
+}
+
 header .nav-mid-content ul li .dropdown {
   float: left;
   overflow: hidden;
@@ -144,6 +149,11 @@ header .nav-mid-content ul li .dropdown .dropbtn {
   outline: 0;
   cursor: pointer;
   position: relative;
+}
+
+header .nav-mid-content ul li .dropdown .dropbtn:hover {
+  color: var(--bg-secondary--);
+  transition: 0.5s ease-in-out;
 }
 
 header .nav-mid-content ul li .dropdown .dropdown-content {
@@ -168,7 +178,7 @@ header .nav-mid-content ul li .dropdown .dropdown-content a {
 
 header .nav-mid-content ul li .dropdown-content a:hover {
   background-color: var(--bg-light-secondary--);
-  color: black;
+  color: var(--text-primary--);
 }
 
 header .nav-right-content ul li a button {
@@ -181,6 +191,12 @@ header .nav-right-content ul li a button {
   border-radius: 28px;
   color: var(--text-primary--);
   font-weight: 800;
+}
+
+header .nav-right-content ul li a button:hover {
+  background-color: var(--bg-light-primary--);
+  color: var(--text-secondary--);
+  transition: all 0.5s ease-in-out;
 }
 
 header .menu-toggler-btn {
@@ -234,6 +250,12 @@ header .mobile-menu ul li a .mobile-contact-btn {
   font-weight: 800;
 }
 
+header .mobile-menu ul li a .mobile-contact-btn:hover {
+  background-color: var(--bg-primary--);
+  color: var(--text-white--);
+  transition: all 0.5s ease-in-out;
+}
+
 header .mobile-menu ul li .mobile-dropdown {
   float: left;
   overflow: hidden;
@@ -268,7 +290,65 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a {
 
 header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   background-color: var(--bg-light-secondary--);
-  color: black;
+  color: var(--text-primary--);
 }
 
 /* ========= header css end ========== */
+
+/* ========= footer css start ========== */
+
+footer {
+  border-top: 1px solid var(--text-primary--);
+}
+
+footer .footer-content {
+  padding-top: 30px;
+  max-width: 950px;
+  width: 100%;
+}
+
+footer .footer-content .help-image {
+  max-width: 120px;
+}
+
+footer .footer-content .help-image img {
+  width: 100%;
+}
+
+footer .footer-content .footer-contact-content h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+footer .footer-content .footer-contact-content .footer-contact-icon {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 15px;
+}
+
+footer .footer-content .footer-contact-content .footer-contact-icon div {
+  padding-right: 20px;
+}
+
+footer
+  .footer-content
+  .footer-contact-content
+  .footer-contact-icon
+  div
+  .ri-phone-fill,
+.ri-whatsapp-line,
+.ri-chat-1-line,
+.ri-mail-line {
+  font-size: 22px;
+  padding-right: 5px;
+}
+
+footer .footer-content .footer-contact-content .footer-contact-icon div span {
+  border-bottom: 1px solid var(--text-primary--);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* ========= footer css end ========== */

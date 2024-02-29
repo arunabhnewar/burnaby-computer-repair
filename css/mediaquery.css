@@ -92,6 +92,32 @@
     flex-direction: column;
     transform: translateY(0px);
   }
+
+  footer .footer-content .help-image {
+    max-width: 90px;
+  }
+
+  footer .footer-content .footer-contact-content h5 {
+    font-size: 15px;
+  }
+
+  footer
+    .footer-content
+    .footer-contact-content
+    .footer-contact-icon
+    div
+    .ri-phone-fill,
+  .ri-whatsapp-line,
+  .ri-chat-1-line,
+  .ri-mail-line {
+    font-size: 15px;
+  }
+
+  footer .footer-content .footer-contact-content .footer-contact-icon div span {
+    border-bottom: 1px solid var(--text-primary--);
+    font-size: 15px;
+    font-weight: 700;
+  }
 }
 /* applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
@@ -143,6 +169,50 @@
     width: 100%;
     padding: 0 15px;
   }
+
+  footer .footer-content {
+    text-align: center;
+  }
+
+  footer .footer-content .help-image {
+    max-width: 120px;
+    margin: 0 auto;
+  }
+
+  footer .footer-content .footer-contact-content h5 {
+    font-size: 20px;
+  }
+
+  footer .footer-content .footer-contact-content .footer-contact-icon {
+    max-width: 200px;
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  footer
+    .footer-content
+    .footer-contact-content
+    .footer-contact-icon
+    div
+    .ri-phone-fill,
+  .ri-whatsapp-line,
+  .ri-chat-1-line,
+  .ri-mail-line {
+    font-size: 18px;
+    padding-right: 2px;
+  }
+
+  footer .footer-content .footer-contact-content .footer-contact-icon div span {
+    font-size: 16px;
+  }
+
+  .payment-system {
+    margin: 20px 0;
+  }
+
+  .payment-system2 {
+    margin-bottom: 20px;
+  }
 }
 /*  applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -193,5 +263,20 @@
   .col-xs-12 {
     width: 100%;
     padding: 0 15px;
+  }
+
+  footer .footer-address h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  footer .footer-address h5 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  footer .footer-address h6 {
+    font-size: 12px;
+    padding-top: 0;
   }
 }

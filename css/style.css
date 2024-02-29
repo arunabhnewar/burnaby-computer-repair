@@ -351,4 +351,53 @@ footer .footer-content .footer-contact-content .footer-contact-icon div span {
   font-weight: 700;
 }
 
+.payment-system,
+.payment-system2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.payment-system2 {
+  margin-top: 10px;
+}
+
+.payment-system div img,
+.payment-system2 div img {
+  max-width: 50px;
+  width: 100%;
+}
+
+footer .footer-address {
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer .footer-address h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-primary--);
+  line-height: 35px;
+}
+
+footer .footer-address h5 {
+  font-size: 20px;
+  color: var(--text-secondary--);
+  font-weight: 500;
+  line-height: 26px;
+}
+
+footer .footer-address h5 span {
+  color: var(--text-primary--);
+  font-weight: 700;
+}
+
+footer .footer-address h6 {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--text-primary--);
+  padding-top: 5px;
+}
+
 /* ========= footer css end ========== */

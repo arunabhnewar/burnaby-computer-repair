@@ -296,6 +296,30 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 /* ========= header css end ========== */
 
 /* ========= footer css start ========== */
+/* ========= banner css start ========== */
+.banner-content {
+  padding-top: 30px;
+  max-width: 950px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.banner-content h1 {
+  font-size: 45px;
+  font-weight: 500;
+  color: var(--text-primary--);
+  margin-bottom: 15px;
+}
+.banner-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-secondary--);
+  margin-bottom: 15px;
+}
+/* ========= banner css start ========== */
 
 footer {
   border-top: 1px solid var(--text-primary--);

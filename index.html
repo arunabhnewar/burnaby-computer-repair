@@ -5,34 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>North Shore Computer Services</title>
 
+    <!-- remix icon cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet" />
+
     <!-- Custom css link -->
     <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- media query css -->
+    <link rel="stylesheet" href="./css/mediaquery.css" />
   </head>
   <body>
     <!------- header start -------->
     <header>
       <!------- navbar start -------->
-      <section class="page-container navbar_container">
+      <section class="page-container">
         <nav class="nav-menu container">
           <ul>
-            <li><a href="/">BurnabyComputerRepair</a></li>
-            <li><a href="/services.html">Our Services</a></li>
-            <li><a href="/about.html">About Us</a></li>
-            <li><a href="/whyus.html">Why Us</a></li>
+            <li class="logo-txt">
+              <a href="/">Burnaby<span>Computer</span>Repair</a>
+            </li>
+          </ul>
+
+          <!------- navbar mid content start -------->
+          <div class="nav-mid-content">
+            <ul>
+              <li>
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    Our Services <i class="ri-arrow-down-s-fill"></i>
+                  </button>
+
+                  <div class="dropdown-content">
+                    <a href="/homeservice.html">For Home</a>
+                    <a href="/businessservice.html">For Business</a>
+                  </div>
+                </div>
+              </li>
+              <li><a href="/about.html">About Us</a></li>
+              <li><a href="/whyus.html">Why Us</a></li>
+              <li>
+                <a
+                  href="https://www.604-get-help.com/References/"
+                  target="_blank"
+                  >Testimonials</a
+                >
+              </li>
+              <li><a href="/prices.html">Prices</a></li>
+            </ul>
+          </div>
+          <!------- navbar mid content end -------->
+
+          <!------- navbar right content start -------->
+          <div class="nav-right-content">
+            <ul>
+              <li>
+                <a href="/contact.html">
+                  <button>Contact Us</button>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!------- navbar right content end -------->
+
+          <!------- navbar menu toggle button start -------->
+          <div class="menu-toggler-btn">
+            <button>
+              <i class="ri-menu-line"></i>
+            </button>
+          </div>
+          <!------- navbar menu toggle button end -------->
+        </nav>
+
+        <!------- responsive navigation start -------->
+        <div class="mobile-menu">
+          <ul>
             <li>
+              <div class="mobile-dropdown">
+                <button class="mobile-dropbtn">
+                  Our Services <i class="ri-arrow-down-s-fill"></i>
+                </button>
+
+                <div class="mobile-dropdown-content">
+                  <a href="/homeservice.html">For Home</a>
+                  <a href="/businessservice.html">For Business</a>
+                </div>
+              </div>
+            </li>
+            <li class="mobile-menu-list"><a href="/about.html">About Us</a></li>
+            <li class="mobile-menu-list"><a href="/whyus.html">Why Us</a></li>
+            <li class="mobile-menu-list">
               <a href="https://www.604-get-help.com/References/" target="_blank"
                 >Testimonials</a
               >
             </li>
-            <li><a href="/prices.html">Prices</a></li>
-
+            <li class="mobile-menu-list"><a href="/prices.html">Prices</a></li>
             <li>
               <a href="/contact.html">
-                <button>Contact Us</button>
+                <button class="mobile-contact-btn">Contact Us</button>
               </a>
             </li>
           </ul>
-        </nav>
+        </div>
+        <!------- responsive navigation end -------->
       </section>
       <!------- navbar end -------->
     </header>
@@ -41,7 +117,7 @@
     <main>
       <div class="container">
         <div class="row">
-          <div class="col-4 col-md-6 col-sm-12 ">
+          <div class="col-4 col-md-6 col-sm-12">
             <h1>North Shore Computer Services</h1>
           </div>
           <div class="col-4 col-md-6 col-sm-12">

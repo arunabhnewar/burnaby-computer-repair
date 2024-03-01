@@ -25,7 +25,6 @@ body {
   --bg-light-secondary--: #fdfae5;
   --text-green--: #13795b;
   --light-green--: #cfe4de;
-
 }
 
 .container {
@@ -331,7 +330,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 }
 
 .about-content .help-image {
-  max-width: 250px;
+  max-width: 200px;
 }
 
 .about-content .help-image img {
@@ -357,15 +356,21 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 }
 
 .about-content .about-contact-content .about-contact-icon div i {
-  font-size: 30px;
+  font-size: 22px;
   padding-right: 5px;
 }
 
-.about-content .about-contact-content .about-contact-icon div span {
+.about-content .about-contact-content .about-contact-icon div a {
   border-bottom: 1px solid var(--text-primary--);
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 700;
+  color: var(--text-primary--);
 }
+
+.about-content .about-contact-content .about-contact-icon div a:hover {
+  color: var(--text-green--);
+}
+
 .button-left {
   display: flex;
   flex-direction: column;
@@ -413,7 +418,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   margin-bottom: 20px;
 }
 .why-box .left-img {
-  width: 75px;
+  width: 85px;
 }
 .why-box .left-img img {
   width: 100%;
@@ -673,7 +678,7 @@ footer .footer-content {
 }
 
 footer .footer-content .help-image {
-  max-width: 250px;
+  max-width: 200px;
 }
 
 footer .footer-content .help-image img {
@@ -698,20 +703,25 @@ footer .footer-content .footer-contact-content .footer-contact-icon div {
   padding-right: 20px;
 }
 
+footer .footer-content .footer-contact-content .footer-contact-icon div i {
+  font-size: 22px;
+  padding-right: 5px;
+}
+
+footer .footer-content .footer-contact-content .footer-contact-icon div a {
+  border-bottom: 1px solid var(--text-primary--);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-primary--);
+}
+
 footer
   .footer-content
   .footer-contact-content
   .footer-contact-icon
   div
- i {
-  font-size: 30px;
-  padding-right: 5px;
-}
-
-footer .footer-content .footer-contact-content .footer-contact-icon div span {
-  border-bottom: 1px solid var(--text-primary--);
-  font-size: 25px;
-  font-weight: 700;
+  a:hover {
+  color: var(--text-green--);
 }
 
 .payment-system,

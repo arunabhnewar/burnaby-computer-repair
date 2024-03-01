@@ -5,11 +5,202 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Why Us Page</title>
 
+    <!-- remix icon cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet" />
+
     <!-- Custom css link -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./../css/style.css" />
+
+    <!-- media query css -->
+    <link rel="stylesheet" href="./../css/mediaquery.css" />
   </head>
   <body>
+    <!------- header start -------->
+    <header>
+      <!------- navbar start -------->
+      <section class="page-container">
+        <nav class="nav-menu container">
+          <ul>
+            <li class="logo-txt">
+              <a href="./../index.html">Burnaby<span>Computer</span>Repair</a>
+            </li>
+          </ul>
+
+          <!------- navbar mid content start -------->
+          <div class="nav-mid-content">
+            <ul>
+              <li>
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    Our Services <i class="ri-arrow-down-s-fill"></i>
+                  </button>
+
+                  <div class="dropdown-content">
+                    <a href="./homeservice.html">For Home</a>
+                    <a href="./businessservice.html">For Business</a>
+                  </div>
+                </div>
+              </li>
+              <li><a href="./about.html">About Us</a></li>
+              <li><a href="./whyus.html">Why Us</a></li>
+              <li>
+                <a
+                  href="https://www.604-get-help.com/References/"
+                  target="_blank"
+                  >Testimonials</a
+                >
+              </li>
+              <li><a href="./prices.html">Prices</a></li>
+            </ul>
+          </div>
+          <!------- navbar mid content end -------->
+
+          <!------- navbar right content start -------->
+          <div class="nav-right-content">
+            <ul>
+              <li>
+                <a href="./contact.html">
+                  <button>Contact Us</button>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!------- navbar right content end -------->
+
+          <!------- navbar menu toggle button start -------->
+          <div class="menu-toggler-btn">
+            <button>
+              <i class="ri-menu-line"></i>
+            </button>
+          </div>
+          <!------- navbar menu toggle button end -------->
+        </nav>
+
+        <!------- responsive navigation start -------->
+        <div class="mobile-menu">
+          <ul>
+            <li>
+              <div class="mobile-dropdown">
+                <button class="mobile-dropbtn">
+                  Our Services <i class="ri-arrow-down-s-fill"></i>
+                </button>
+
+                <div class="mobile-dropdown-content">
+                  <a href="./homeservice.html">For Home</a>
+                  <a href="./businessservice.html">For Business</a>
+                </div>
+              </div>
+            </li>
+            <li class="mobile-menu-list">
+              <a href="./about.html">About Us</a>
+            </li>
+            <li class="mobile-menu-list">
+              <a href="./whyus.html">Why Us</a>
+            </li>
+            <li class="mobile-menu-list">
+              <a href="https://www.604-get-help.com/References/" target="_blank"
+                >Testimonials</a
+              >
+            </li>
+            <li class="mobile-menu-list">
+              <a href="./prices.html">Prices</a>
+            </li>
+            <li>
+              <a href="./contact.html">
+                <button class="mobile-contact-btn">Contact Us</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!------- responsive navigation end -------->
+      </section>
+      <!------- navbar end -------->
+    </header>
+    <!------- header end -------->
+
+    <!------- main start -------->
+    <main></main>
+    <!------- main end -------->
+
+    <!------- footer start -------->
+    <footer>
+      <!------- footer top content start -------->
+      <section class="container footer-content">
+        <div class="row">
+          <!-- footer left side content -->
+          <div class="col-6 col-md-6 col-sm-12">
+            <div class="row">
+              <div class="col-4 col-md-4 col-sm-12 help-image">
+                <img src="./../images/helpRedPhone.png" alt="" />
+              </div>
+              <div class="col-8 col-md-8 col-sm-12 footer-contact-content">
+                <h5>604-GET-HELP (604-438-4357)</h5>
+
+                <div class="footer-contact-icon">
+                  <div><i class="ri-phone-fill"></i> <span>Call</span></div>
+
+                  <div>
+                    <i class="ri-whatsapp-line"></i> <span>WhatsApp</span>
+                  </div>
+                </div>
+
+                <div class="footer-contact-icon">
+                  <div><i class="ri-chat-1-line"></i><span>Text</span></div>
+
+                  <div><i class="ri-mail-line"></i> <span>Email</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- footer right side content -->
+          <div class="col-6 col-md-6 col-sm-12">
+            <div class="payment-system">
+              <div class="">
+                <img src="./../images/Mastercard.png" alt="" />
+              </div>
+
+              <div class="">
+                <img src="./../images/Interac.png" alt="" />
+              </div>
+
+              <div class="">
+                <img src="./../images/Cash.png" alt="" />
+              </div>
+            </div>
+
+            <div class="payment-system2">
+              <div class="">
+                <img src="./../images/Visa.png" alt="" />
+              </div>
+
+              <div class="">
+                <img src="./../images/Paypal.png" alt="" />
+              </div>
+
+              <div class="">
+                <img src="./../images/Checks.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------- footer top content end -------->
+
+      <!------- footer bottom content start -------->
+      <section class="container footer-address">
+        <h3>Burnaby Computer Repair</h3>
+        <h5>A division of <span>Smart Technologies Consultants Ltd.</span></h5>
+        <h5>Working with <span>604-GET-HELP Computer Services.</span></h5>
+        <h6>Serving Businesses and Individuals since 1998.</h6>
+      </section>
+      <!------- footer bottom content end -------->
+    </footer>
+    <!------- footer end -------->
+
     <!-- custom js script -->
-    <script src="./js/main.js"></script>
+    <script src="./../js/main.js"></script>
   </body>
 </html>

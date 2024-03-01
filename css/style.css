@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #dcebfb;
+  background-color: #f8fbfe;
 }
 
 :root {
@@ -235,7 +235,7 @@ header .mobile-menu ul .mobile-menu-list {
 }
 
 header .mobile-menu ul li a {
-  color: var(--text-primary--);
+  color: var(--text-white--);
   font-size: 18px;
   font-weight: 600;
 }
@@ -264,7 +264,7 @@ header .mobile-menu ul li .mobile-dropdown {
 }
 
 header .mobile-menu ul li .mobile-dropdown .mobile-dropbtn {
-  color: var(--text-primary--);
+  color: var(--text-white--);
   font-size: 18px;
   font-weight: 600;
   background-color: transparent;
@@ -281,7 +281,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content {
 
 header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a {
   float: none;
-  color: var(--text-primary--);
+  color: var(--text-white--);
   padding: 12px 25px;
   text-decoration: none;
   display: block;

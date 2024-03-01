@@ -319,7 +319,85 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   color: var(--text-secondary--);
   margin-bottom: 15px;
 }
-/* ========= banner css start ========== */
+/* ========= banner css end ========== */
+/* ========= about css start ========== */
+.about-content {
+  padding: 30px 0;
+  max-width: 950px;
+  width: 100%;
+}
+
+.about-content .help-image {
+  max-width: 120px;
+}
+
+.about-content .help-image img {
+  width: 100%;
+}
+
+.about-content .about-contact-content h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.about-content .about-contact-content .about-contact-icon {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.about-content .about-contact-content .about-contact-icon div {
+  padding-right: 20px;
+}
+
+.about-content .about-contact-content .about-contact-icon div .ri-phone-fill,
+.ri-whatsapp-line,
+.ri-chat-1-line,
+.ri-mail-line {
+  font-size: 22px;
+  padding-right: 5px;
+}
+
+.about-content .about-contact-content .about-contact-icon div span {
+  border-bottom: 1px solid var(--text-primary--);
+  font-size: 18px;
+  font-weight: 700;
+}
+.button-left{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.button-left a{
+  width: 250px;
+  height: 70px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  margin-top: 15px;
+}
+.button-left .contact{
+  background: var(--bg-secondary--);
+  color: var(--text-primary--);
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+.button-left .prices{
+  background: var(--bg-primary--);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+/* ========= about css end ========== */
 
 footer {
   border-top: 1px solid var(--text-primary--);

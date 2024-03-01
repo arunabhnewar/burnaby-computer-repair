@@ -89,7 +89,8 @@ ul li {
   list-style: none;
 }
 
-ul li a {
+ul li a,
+a {
   text-decoration: none;
 }
 
@@ -473,6 +474,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   font-size: 32px;
   padding-top: 10px;
   font-weight: 700;
+  color: var(--text-primary--);
 }
 
 .service_section .business-service-card {
@@ -514,6 +516,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   font-size: 32px;
   padding-top: 10px;
   font-weight: 700;
+  color: var(--text-primary--);
 }
 /* ========= services css end ========== */
 

@@ -1,3 +1,4 @@
+/* ========= contact us css start ========== */
 .contact-us-section {
   margin-top: 50px;
   max-width: 990px;
@@ -169,4 +170,121 @@
 
 .contact-us-section .contact-address-card .address-txt a:hover {
   background-color: var(--light-green--);
+}
+/* ========= contact us css end ========== */
+
+/* ========= contact form css start ========== */
+.contact-form-section {
+  margin-top: 100px;
+  max-width: 990px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.contact-form-section h1 {
+  text-align: center;
+  font-size: 40px;
+  color: var(--text-primary--);
+  font-weight: 800;
+  margin-bottom: 100px;
+}
+
+.contact-form-section form label {
+  font-size: 18px;
+  color: var(--text-secondary--);
+  font-weight: 600;
+}
+
+.contact-form-section form label span {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-secondary--);
+}
+
+.contact-form-section form label sup {
+  color: red;
+}
+
+.contact-form-section form input::placeholder,
+.contact-form-section form textarea::placeholder {
+  color: var(--text-secondary--);
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-form-section form input,
+.contact-form-section form textarea {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 14px 22px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  line-height: 25px;
+  outline: 0;
+  border: 1px solid #e6e6e6;
+  width: 100%;
+  font-size: 16px;
+  color: var(--text-primary--);
+  font-weight: 600;
+}
+
+.contact-form-section form select {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 14px 22px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  line-height: 25px;
+  outline: 0;
+  border: 1px solid #e6e6e6;
+  width: 100%;
+  font-size: 16px;
+  color: var(--text-primary--);
+  font-weight: 600;
+  height: 56px;
+  cursor: pointer;
+}
+
+.contact-form-section form .agreement-field {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 15px;
+}
+
+.contact-form-section form .agreement-field input[type="checkbox"] {
+  width: 15px;
+}
+
+.contact-form-section form .agreement-field label a {
+  color: var(--text-green--);
+  text-decoration: underline;
+}
+
+.contact-form-section form .agreement-field label a:hover {
+  background-color: var(--light-green--);
+}
+
+.submit-form-btn {
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0 0 auto;
+}
+
+.submit-form-btn .submit-btn {
+  cursor: pointer;
+  background-color: var(--bg-secondary--);
+  height: 65px;
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--text-primary--);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.submit-form-btn .submit-btn:hover {
+  transition: all 0.5s ease-in-out;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: var(--bg-primary--);
+  color: var(--text-white--);
 }

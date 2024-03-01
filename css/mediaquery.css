@@ -358,7 +358,8 @@
     font-size: 24px;
   }
 
-  .contact-us-section h1 {
+  .contact-us-section h1,
+  .contact-form-section h1 {
     font-size: 34px;
   }
 

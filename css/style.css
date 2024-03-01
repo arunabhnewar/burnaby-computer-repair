@@ -421,6 +421,27 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   font-weight: 700;
 }
 
+/* about-right */
+.about-right{}
+.about-right .right-box{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  
+}
+.about-right .right-box p{
+  border: 1px solid var(--text-secondary--);
+  padding: 10px 15px;
+  border-radius: 8px;
+ font-size: 12px;
+ /* line-height: 22px; */
+}
+.about-right .right-box i{
+  font-size: 24px;
+  color: var(--text-secondary--);
+}
+
 /* ========= about css end ========== */
 
 /* ========= services css start ========== */

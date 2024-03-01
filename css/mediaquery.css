@@ -268,6 +268,14 @@
   .payment-system2 {
     margin-bottom: 20px;
   }
+
+  .banner-content {
+    padding-top: 40px;
+  }
+
+  .submit-form-btn {
+    margin: 20px auto;
+  }
 }
 
 /*  applies to x-small devices (portrait phones, less than 576px) */
@@ -396,5 +404,13 @@
 
   .contact-us-section .contact-address-card .address-txt {
     font-size: 14px;
+  }
+
+  .banner-content {
+    padding-top: 80px;
+  }
+
+  .banner-content h1 {
+    font-size: 38px;
   }
 }

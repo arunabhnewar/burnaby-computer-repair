@@ -1,0 +1,172 @@
+.contact-us-section {
+  margin-top: 50px;
+  max-width: 990px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.contact-us-section .contact-page-content {
+  padding: 35px 0;
+}
+
+.contact-us-section h1 {
+  text-align: center;
+  font-size: 40px;
+  color: var(--text-primary--);
+  font-weight: 800;
+  margin-bottom: 100px;
+}
+
+.contact-us-section .contact-us-card {
+  background-color: var(--text-white--);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 0 auto;
+  max-width: 300px;
+  width: 100%;
+  min-height: 237px;
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.contact-us-section .contact-us-card:hover {
+  transition: all 0.5s ease-in-out;
+  border: 1px solid var(--bg-primary--);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.contact-us-section .contact-us-card .contact-us-icon {
+  background-color: var(--bg-light-primary--);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -15%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.ri-phone-line,
+.ri-message-2-line,
+.ri-price-tag-3-line,
+.ri-map-2-fill,
+.ri-mail-send-fill {
+  font-size: 36px;
+  color: var(--text-green--);
+}
+
+.contact-us-section .contact-us-card .help-line {
+  color: var(--text-green--);
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 40px;
+}
+
+.contact-us-section .contact-us-card .help-line-contact {
+  color: var(--text-green--);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-decoration: underline;
+}
+
+.contact-us-section .contact-us-card .help-line-contact:hover {
+  background-color: var(--light-green--);
+}
+
+.contact-us-section .contact-us-card p {
+  color: var(--text-secondary--);
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.contact-us-section .contact-us-card h5 {
+  color: var(--text-secondary--);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.contact-us-section .contact-us-card .text-line-contact,
+.contact-us-section .contact-us-card .price-line-contact,
+.contact-us-section .contact-address-card .address-txt {
+  color: var(--text-secondary--);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+
+.contact-us-section .contact-us-card .text-line-contact a,
+.contact-us-section .contact-us-card .price-line-contact a {
+  color: var(--text-green--);
+  text-decoration: underline;
+}
+
+.contact-us-section .contact-us-card .text-line-contact a:hover,
+.contact-us-section .contact-us-card .price-line-contact a:hover {
+  background-color: var(--light-green--);
+}
+
+.contact-us-section .contact-address-card {
+  background-color: var(--text-white--);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 30px auto;
+  max-width: 350px;
+  width: 100%;
+  min-height: 237px;
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.contact-us-section .contact-address-card .contact-address-icon {
+  background-color: var(--bg-light-primary--);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -12%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.contact-us-section .contact-address-card:hover {
+  transition: all 0.5s ease-in-out;
+  border: 1px solid var(--bg-primary--);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.contact-us-section .contact-address-card .address-txt {
+  color: var(--text-secondary--);
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 24px;
+}
+
+.contact-us-section .contact-address-card .address-txt strong {
+  color: var(--text-green--);
+  font-weight: 800;
+}
+
+.contact-us-section .contact-address-card .address-txt a {
+  color: var(--text-green--);
+  text-decoration: underline;
+}
+
+.contact-us-section .contact-address-card .address-txt a:hover {
+  background-color: var(--light-green--);
+}

@@ -144,6 +144,10 @@
   .service_section .home-service-card h1 {
     font-size: 28px;
   }
+
+  .contact-page-content {
+    margin: 0 auto;
+  }
 }
 
 /* applies to small devices (landscape phones, less than 768px) */
@@ -348,5 +352,44 @@
   .service_section .business-service-card h1,
   .service_section .home-service-card h1 {
     font-size: 24px;
+  }
+
+  .contact-us-section h1 {
+    font-size: 34px;
+  }
+
+  .contact-us-section .contact-us-card,
+  .contact-us-section .contact-address-card {
+    max-width: 250px;
+  }
+
+  .contact-us-section .contact-us-card .contact-us-icon,
+  .contact-us-section .contact-address-card .contact-address-icon {
+    width: 50px;
+    height: 50px;
+    top: -12%;
+  }
+
+  .ri-phone-line,
+  .ri-message-2-line,
+  .ri-price-tag-3-line,
+  .ri-map-2-fill,
+  .ri-mail-send-fill {
+    font-size: 26px;
+  }
+
+  .contact-us-section .contact-us-card .help-line {
+    font-size: 18px;
+  }
+
+  .contact-us-section .contact-us-card .help-line-contact,
+  .contact-us-section .contact-us-card h5,
+  .contact-us-section .contact-us-card .text-line-contact,
+  .contact-us-section .contact-us-card .price-line-contact {
+    font-size: 16px;
+  }
+
+  .contact-us-section .contact-address-card .address-txt {
+    font-size: 14px;
   }
 }

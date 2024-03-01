@@ -397,6 +397,30 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   padding-left: 30px;
   border-radius: 10px;
 }
+/* why us */
+.why-us{
+  padding-top: 20px;
+}
+.why-us h4{
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.why-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.why-box .left-img{
+  width: 55px;
+}
+.why-box .left-img img{
+  width: 100%;
+}
+.why-box .text{
+  font-weight: 700;
+}
+
 /* ========= about css end ========== */
 
 /* ========= services css start ========== */

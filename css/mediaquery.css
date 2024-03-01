@@ -100,15 +100,15 @@
     transform: translateY(0px);
   }
 
-  footer .footer-content .help-image {
+  /* footer .footer-content .help-image {
     max-width: 90px;
-  }
+  } */
 
-  footer .footer-content .footer-contact-content h5 {
+  /* footer .footer-content .footer-contact-content h5 {
     font-size: 15px;
-  }
+  } */
 
-  footer
+  /* footer
     .footer-content
     .footer-contact-content
     .footer-contact-icon
@@ -118,13 +118,13 @@
   .ri-chat-1-line,
   .ri-mail-line {
     font-size: 15px;
-  }
+  } */
 
-  footer .footer-content .footer-contact-content .footer-contact-icon div span {
+  /* footer .footer-content .footer-contact-content .footer-contact-icon div span {
     border-bottom: 1px solid var(--text-primary--);
     font-size: 15px;
     font-weight: 700;
-  }
+  } */
 
   .service_section .home-service-card,
   .service_section .business-service-card {
@@ -226,21 +226,25 @@
 
   footer .footer-content .help-image,
   .about-content .help-image {
-    max-width: 120px;
+    max-width: 200px;
     margin: 0 auto;
   }
 
-  footer .footer-content .footer-contact-content h5 {
+  /* footer .footer-content .footer-contact-content h5 {
     font-size: 20px;
-  }
+  } */
 
   footer .footer-content .footer-contact-content .footer-contact-icon {
-    max-width: 200px;
+    /* max-width: 200px;
+    width: 100%;
+    margin: 20px auto; */
     width: 100%;
     margin: 20px auto;
+    display: flex;
+    justify-content: center;
   }
 
-  footer
+  /* footer
     .footer-content
     .footer-contact-content
     .footer-contact-icon
@@ -251,11 +255,11 @@
   .ri-mail-line {
     font-size: 18px;
     padding-right: 2px;
-  }
+  } */
 
-  footer .footer-content .footer-contact-content .footer-contact-icon div span {
+  /* footer .footer-content .footer-contact-content .footer-contact-icon div span {
     font-size: 16px;
-  }
+  } */
 
   .payment-system {
     margin: 20px 0;

@@ -10,13 +10,13 @@
     font-size: 20px;
   }
 
-  header .nav-mid-content ul li a,
-  header .nav-mid-content ul li .dropdown .dropbtn {
-    font-size: 16px;
-  }
-
   header .nav-right-content ul li a button {
     font-size: 18px;
+  }
+
+  /* header .nav-mid-content ul li a,
+  header .nav-mid-content ul li .dropdown .dropbtn {
+    font-size: 16px;
   }
 
   header .nav-mid-content ul li .dropdown .dropdown-content {
@@ -25,14 +25,15 @@
 
   header .nav-mid-content ul li .dropdown .dropdown-content a {
     font-size: 16px;
-  }
+  } */
 }
+
 /* applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-  .pl-30{
+  .pl-30 {
     padding-left: 30px !important;
   }
-  .pl-15{
+  .pl-15 {
     padding-left: 15px !important;
   }
   .col-md-1 {
@@ -144,6 +145,7 @@
     font-size: 28px;
   }
 }
+
 /* applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
   .col-sm-1 {
@@ -195,21 +197,21 @@
     padding: 0 15px;
   }
   .about-content .about-contact-content h5 {
-   text-align: center;
-}
-.about-content .about-contact-content .about-contact-icon {
-  justify-content: center;
-}
-.button-left {
-  justify-content: center;
-  align-items: center;
-}
-.why-us {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+    text-align: center;
+  }
+  .about-content .about-contact-content .about-contact-icon {
+    justify-content: center;
+  }
+  .button-left {
+    justify-content: center;
+    align-items: center;
+  }
+  .why-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .qr_code_section .qr_code_images {
     flex-direction: column;
   }
@@ -218,7 +220,8 @@
     text-align: center;
   }
 
-  footer .footer-content .help-image,.about-content .help-image {
+  footer .footer-content .help-image,
+  .about-content .help-image {
     max-width: 120px;
     margin: 0 auto;
   }
@@ -258,6 +261,7 @@
     margin-bottom: 20px;
   }
 }
+
 /*  applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .col-xs-1 {
@@ -308,7 +312,7 @@
     width: 100%;
     padding: 0 15px;
   }
-  .about-right .right-button{
+  .about-right .right-button {
     flex-wrap: wrap;
   }
 

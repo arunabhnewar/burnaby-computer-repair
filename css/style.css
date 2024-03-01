@@ -137,7 +137,7 @@ header .nav-mid-content ul li a:hover {
   transition: 0.5s ease-in-out;
 }
 
-header .nav-mid-content ul li .dropdown {
+/* header .nav-mid-content ul li .dropdown {
   float: left;
   overflow: hidden;
 }
@@ -182,7 +182,7 @@ header .nav-mid-content ul li .dropdown .dropdown-content a {
 header .nav-mid-content ul li .dropdown-content a:hover {
   background-color: var(--bg-light-secondary--);
   color: var(--text-primary--);
-}
+} */
 
 header .nav-right-content ul li a button {
   background-color: var(--bg-secondary--);
@@ -259,7 +259,7 @@ header .mobile-menu ul li a .mobile-contact-btn:hover {
   transition: all 0.5s ease-in-out;
 }
 
-header .mobile-menu ul li .mobile-dropdown {
+/* header .mobile-menu ul li .mobile-dropdown {
   float: left;
   overflow: hidden;
 }
@@ -294,7 +294,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a {
 header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   background-color: var(--bg-light-secondary--);
   color: var(--text-primary--);
-}
+} */
 /* ========= header css end ========== */
 
 /* ========= banner css start ========== */

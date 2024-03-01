@@ -318,7 +318,109 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   color: var(--text-secondary--);
   margin-bottom: 15px;
 }
-/* ========= banner css start ========== */
+/* ========= banner css end ========== */
+/* ========= about css start ========== */
+.about-content {
+  padding: 30px 0;
+  max-width: 950px;
+  width: 100%;
+}
+
+.about-content .help-image {
+  max-width: 120px;
+}
+
+.about-content .help-image img {
+  width: 100%;
+}
+
+.about-content .about-contact-content h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.about-content .about-contact-content .about-contact-icon {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.about-content .about-contact-content .about-contact-icon div {
+  padding-right: 20px;
+}
+
+.about-content .about-contact-content .about-contact-icon div .ri-phone-fill,
+.ri-whatsapp-line,
+.ri-chat-1-line,
+.ri-mail-line {
+  font-size: 22px;
+  padding-right: 5px;
+}
+
+.about-content .about-contact-content .about-contact-icon div span {
+  border-bottom: 1px solid var(--text-primary--);
+  font-size: 18px;
+  font-weight: 700;
+}
+.button-left {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.button-left a {
+  width: 250px;
+  height: 70px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  margin-top: 15px;
+}
+.button-left .contact {
+  background: var(--bg-secondary--);
+  color: var(--text-primary--);
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+.button-left .prices {
+  background: var(--bg-primary--);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+/* why us */
+.why-us {
+  padding-top: 20px;
+}
+.why-us h4 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.why-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.why-box .left-img {
+  width: 55px;
+}
+.why-box .left-img img {
+  width: 100%;
+}
+.why-box .text {
+  font-weight: 700;
+}
+
+/* ========= about css end ========== */
 
 /* ========= services css start ========== */
 .service_section {
@@ -419,13 +521,12 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 .buttons_group_section {
   width: 100%;
   text-align: center;
-  margin: 50px 0 50px;
 }
 
 .price_btn a button {
-  max-width: 220px;
+  max-width: 250px;
   width: 100%;
-  height: 60px;
+  height: 70px;
   border-radius: 28px;
   border: 0;
   background-color: var(--bg-primary--);
@@ -433,6 +534,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   margin-bottom: 30px;
   color: var(--text-white--);
   font-size: 20px;
+  font-weight: 700;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
@@ -444,9 +546,9 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 }
 
 .contact_btn a button {
-  max-width: 220px;
+  max-width: 250px;
   width: 100%;
-  height: 60px;
+  height: 70px;
   border-radius: 28px;
   border: 0;
   background-color: var(--bg-secondary--);
@@ -454,6 +556,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   margin-bottom: 30px;
   color: var(--text-primary--);
   font-size: 20px;
+  font-weight: 700;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
@@ -467,7 +570,9 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 
 /* ========= qr code css start ========== */
 .qr_code_section {
-  margin: 50px 0 100px 0;
+  padding: 50px 15px;
+  max-width: 950px;
+  width: 100%;
 }
 
 .qr_code_section .qr_code_images {

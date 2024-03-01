@@ -23,6 +23,7 @@ body {
   --text-white--: #ffffff;
   --bg-light-primary--: #dcebfb;
   --bg-light-secondary--: #fdfae5;
+  --text-green--: #13795b;
 }
 
 .container {
@@ -136,7 +137,7 @@ header .nav-mid-content ul li a:hover {
   transition: 0.5s ease-in-out;
 }
 
-header .nav-mid-content ul li .dropdown {
+/* header .nav-mid-content ul li .dropdown {
   float: left;
   overflow: hidden;
 }
@@ -181,7 +182,7 @@ header .nav-mid-content ul li .dropdown .dropdown-content a {
 header .nav-mid-content ul li .dropdown-content a:hover {
   background-color: var(--bg-light-secondary--);
   color: var(--text-primary--);
-}
+} */
 
 header .nav-right-content ul li a button {
   background-color: var(--bg-secondary--);
@@ -258,7 +259,7 @@ header .mobile-menu ul li a .mobile-contact-btn:hover {
   transition: all 0.5s ease-in-out;
 }
 
-header .mobile-menu ul li .mobile-dropdown {
+/* header .mobile-menu ul li .mobile-dropdown {
   float: left;
   overflow: hidden;
 }
@@ -293,7 +294,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a {
 header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   background-color: var(--bg-light-secondary--);
   color: var(--text-primary--);
-}
+} */
 /* ========= header css end ========== */
 
 /* ========= banner css start ========== */
@@ -412,7 +413,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   margin-bottom: 20px;
 }
 .why-box .left-img {
-  width: 55px;
+  width: 75px;
 }
 .why-box .left-img img {
   width: 100%;
@@ -422,63 +423,63 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 }
 
 /* about-right */
-.about-right{}
-.about-right .right-box{
+.about-right {
+}
+.about-right .right-box {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 20px;
   width: 100%;
   padding-right: 15px;
-  
 }
-.about-right .right-box p{
+.about-right .right-box p {
   border: 1px solid var(--text-secondary--);
   padding: 10px 15px;
   border-radius: 8px;
- font-size: 12px;
- width: 100%;
+  font-size: 13px;
+  width: 100%;
 }
-.about-right .right-box i{
+.about-right .right-box i {
   font-size: 24px;
-  color: var(--text-secondary--);
+  color: var(--text-green--);
 }
-.about-right .right-button{
+.about-right .right-button {
   display: flex;
   gap: 10px;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
 }
-.right-button a.prices{
+.right-button a.prices {
   background: var(--bg-primary--);
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    padding-left: 30px;
-    border-radius: 10px;
-    width: 230px;
-    height: 70px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  border-radius: 10px;
+  width: 230px;
+  height: 70px;
 }
-.right-button a.contact{
+.right-button a.contact {
   background: var(--bg-secondary--);
-    color: var(--text-primary--);
-    font-size: 20px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    padding-left: 30px;
-    border-radius: 10px;
-    width: 230px;
-    height: 70px;
+  color: var(--text-primary--);
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  border-radius: 10px;
+  width: 230px;
+  height: 70px;
 }
 /* ========= about css end ========== */
 
 /* ========= services css start ========== */
 .service_section {
-  margin-top: 50px;
+  margin-top: 40px;
   max-width: 990px;
   width: 100%;
   margin-bottom: 50px;

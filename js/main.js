@@ -17,32 +17,6 @@
 //   }
 // };
 
-// service menu dropdown event
-document.addEventListener("DOMContentLoaded", function () {
-  // Get all dropdown buttons
-  var dropdowns = document.querySelectorAll(".dropbtn");
-
-  // Add click event listener to each dropdown button
-  dropdowns.forEach(function (dropdown) {
-    dropdown.addEventListener("click", function (event) {
-      var dropdownContent = this.nextElementSibling;
-      // Toggle the display of dropdown content
-      dropdownContent.style.display =
-        dropdownContent.style.display === "block" ? "none" : "block";
-    });
-  });
-
-  // Close dropdown content when clicking outside of it
-  window.addEventListener("click", function (event) {
-    if (!event.target.matches(".dropbtn")) {
-      var dropdowns = document.querySelectorAll(".dropdown-content");
-      dropdowns.forEach(function (dropdown) {
-        dropdown.style.display = "none";
-      });
-    }
-  });
-});
-
 //responsive mobile menu toggle button event
 document.addEventListener("DOMContentLoaded", function () {
   const menuTogglerBtn = document.querySelector(".menu-toggler-btn button");
@@ -69,30 +43,56 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-//
-document.addEventListener("DOMContentLoaded", function () {
-  // Get all mobile dropdown buttons
-  var mobileDropdowns = document.querySelectorAll(".mobile-dropbtn");
+// service menu dropdown event
+// document.addEventListener("DOMContentLoaded", function () {
+//   // Get all dropdown buttons
+//   var dropdowns = document.querySelectorAll(".dropbtn");
 
-  // Add click event listener to each mobile dropdown button
-  mobileDropdowns.forEach(function (dropdown) {
-    dropdown.addEventListener("click", function (event) {
-      var mobileDropdownContent = this.nextElementSibling;
-      // Toggle the display of mobile dropdown content
-      mobileDropdownContent.style.display =
-        mobileDropdownContent.style.display === "block" ? "none" : "block";
-    });
-  });
+//   // Add click event listener to each dropdown button
+//   dropdowns.forEach(function (dropdown) {
+//     dropdown.addEventListener("click", function (event) {
+//       var dropdownContent = this.nextElementSibling;
+//       // Toggle the display of dropdown content
+//       dropdownContent.style.display =
+//         dropdownContent.style.display === "block" ? "none" : "block";
+//     });
+//   });
 
-  // Close mobile dropdown content when clicking outside of it
-  window.addEventListener("click", function (event) {
-    if (!event.target.matches(".mobile-dropbtn")) {
-      var mobileDropdowns = document.querySelectorAll(
-        ".mobile-dropdown-content"
-      );
-      mobileDropdowns.forEach(function (dropdown) {
-        dropdown.style.display = "none";
-      });
-    }
-  });
-});
+//   // Close dropdown content when clicking outside of it
+//   window.addEventListener("click", function (event) {
+//     if (!event.target.matches(".dropbtn")) {
+//       var dropdowns = document.querySelectorAll(".dropdown-content");
+//       dropdowns.forEach(function (dropdown) {
+//         dropdown.style.display = "none";
+//       });
+//     }
+//   });
+// });
+
+// mobile service menu dropdown
+// document.addEventListener("DOMContentLoaded", function () {
+//   // Get all mobile dropdown buttons
+//   var mobileDropdowns = document.querySelectorAll(".mobile-dropbtn");
+
+//   // Add click event listener to each mobile dropdown button
+//   mobileDropdowns.forEach(function (dropdown) {
+//     dropdown.addEventListener("click", function (event) {
+//       var mobileDropdownContent = this.nextElementSibling;
+//       // Toggle the display of mobile dropdown content
+//       mobileDropdownContent.style.display =
+//         mobileDropdownContent.style.display === "block" ? "none" : "block";
+//     });
+//   });
+
+//   // Close mobile dropdown content when clicking outside of it
+//   window.addEventListener("click", function (event) {
+//     if (!event.target.matches(".mobile-dropbtn")) {
+//       var mobileDropdowns = document.querySelectorAll(
+//         ".mobile-dropdown-content"
+//       );
+//       mobileDropdowns.forEach(function (dropdown) {
+//         dropdown.style.display = "none";
+//       });
+//     }
+//   });
+// });

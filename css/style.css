@@ -329,7 +329,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 }
 
 .about-content .help-image {
-  max-width: 120px;
+  max-width: 250px;
 }
 
 .about-content .help-image img {
@@ -337,9 +337,10 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 }
 
 .about-content .about-contact-content h5 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
   margin-bottom: 5px;
+  margin-top: 15px;
 }
 
 .about-content .about-contact-content .about-contact-icon {
@@ -353,17 +354,14 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   padding-right: 20px;
 }
 
-.about-content .about-contact-content .about-contact-icon div .ri-phone-fill,
-.ri-whatsapp-line,
-.ri-chat-1-line,
-.ri-mail-line {
-  font-size: 22px;
+.about-content .about-contact-content .about-contact-icon div i {
+  font-size: 30px;
   padding-right: 5px;
 }
 
 .about-content .about-contact-content .about-contact-icon div span {
   border-bottom: 1px solid var(--text-primary--);
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 700;
 }
 .button-left {
@@ -673,7 +671,7 @@ footer .footer-content {
 }
 
 footer .footer-content .help-image {
-  max-width: 120px;
+  max-width: 250px;
 }
 
 footer .footer-content .help-image img {
@@ -681,9 +679,10 @@ footer .footer-content .help-image img {
 }
 
 footer .footer-content .footer-contact-content h5 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
   margin-bottom: 5px;
+  margin-top: 15px;
 }
 
 footer .footer-content .footer-contact-content .footer-contact-icon {
@@ -702,17 +701,14 @@ footer
   .footer-contact-content
   .footer-contact-icon
   div
-  .ri-phone-fill,
-.ri-whatsapp-line,
-.ri-chat-1-line,
-.ri-mail-line {
-  font-size: 22px;
+ i {
+  font-size: 30px;
   padding-right: 5px;
 }
 
 footer .footer-content .footer-contact-content .footer-contact-icon div span {
   border-bottom: 1px solid var(--text-primary--);
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 700;
 }
 
@@ -721,7 +717,8 @@ footer .footer-content .footer-contact-content .footer-contact-icon div span {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 30px;
+  padding-top: 20px;
 }
 
 .payment-system2 {
@@ -730,8 +727,8 @@ footer .footer-content .footer-contact-content .footer-contact-icon div span {
 
 .payment-system div img,
 .payment-system2 div img {
-  max-width: 50px;
-  width: 100%;
+  width: 70px;
+  /* width: 100%; */
 }
 
 footer .footer-address {

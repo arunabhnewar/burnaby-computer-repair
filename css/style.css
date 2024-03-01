@@ -220,7 +220,7 @@ header .mobile-menu {
   display: none;
   position: absolute;
   width: 100%;
-  background-color: var(--bg-light-primary--);
+  background-color: var(--bg-primary--);
   padding: 15px;
 }
 
@@ -293,7 +293,6 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   background-color: var(--bg-light-secondary--);
   color: var(--text-primary--);
 }
-
 /* ========= header css end ========== */
 
 /* ========= banner css start ========== */
@@ -329,14 +328,14 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   margin-bottom: 50px;
 }
 
-/* .service_section .service-content {
-  width: 50%;
-} */
+.service_section .service-content {
+  padding: 15px 0;
+}
 
 .service_section .home-service-card {
-  max-width: 250px;
+  max-width: 400px;
   width: 100%;
-  min-height: 237px;
+  min-height: 387px;
   height: 100%;
   background-color: var(--text-white--);
   display: flex;
@@ -345,6 +344,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   align-items: center;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin: 0 auto;
 }
 
 .service_section .home-service-card:hover {
@@ -355,8 +355,8 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 
 .service_section .home-service-card div {
   background-color: var(--bg-light-primary--);
-  width: 96px;
-  height: 84px;
+  width: 120px;
+  height: 108px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -368,15 +368,15 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 }
 
 .service_section .home-service-card h1 {
-  font-size: 26px;
+  font-size: 32px;
   padding-top: 10px;
   font-weight: 700;
 }
 
 .service_section .business-service-card {
-  max-width: 250px;
+  max-width: 400px;
   width: 100%;
-  min-height: 237px;
+  min-height: 387px;
   height: 100%;
   background-color: var(--text-white--);
   display: flex;
@@ -385,6 +385,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   align-items: center;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin: 0 auto;
 }
 
 .service_section .business-service-card:hover {
@@ -395,8 +396,8 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 
 .service_section .business-service-card div {
   background-color: var(--bg-light-secondary--);
-  width: 96px;
-  height: 84px;
+  width: 120px;
+  height: 108px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -408,7 +409,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 }
 
 .service_section .business-service-card h1 {
-  font-size: 26px;
+  font-size: 32px;
   padding-top: 10px;
   font-weight: 700;
 }
@@ -480,8 +481,8 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 .qr_code_section .qr_code_images .whatsapp_qr_code,
 .qr_code_section .qr_code_images .chat_qr_code,
 .qr_code_section .qr_code_images .email_qr_code {
-  max-width: 210px;
-  max-height: 210px;
+  max-width: 200px;
+  max-height: 200px;
   background-color: var(--text-white--);
   padding: 5px;
   display: flex;

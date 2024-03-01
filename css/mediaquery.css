@@ -118,6 +118,25 @@
     font-size: 15px;
     font-weight: 700;
   }
+
+  .service_section .home-service-card,
+  .service_section .business-service-card {
+    max-width: 300px;
+    width: 100%;
+    min-height: 287px;
+    height: 100%;
+  }
+
+  .service_section .home-service-card div,
+  .service_section .business-service-card div {
+    width: 120px;
+    height: 108px;
+  }
+
+  .service_section .business-service-card h1,
+  .service_section .home-service-card h1 {
+    font-size: 28px;
+  }
 }
 /* applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
@@ -282,5 +301,24 @@
   footer .footer-address h6 {
     font-size: 12px;
     padding-top: 0;
+  }
+
+  .service_section .home-service-card,
+  .service_section .business-service-card {
+    max-width: 250px;
+    width: 100%;
+    min-height: 247px;
+    height: 100%;
+  }
+
+  .service_section .home-service-card div,
+  .service_section .business-service-card div {
+    width: 96px;
+    height: 84px;
+  }
+
+  .service_section .business-service-card h1,
+  .service_section .home-service-card h1 {
+    font-size: 24px;
   }
 }

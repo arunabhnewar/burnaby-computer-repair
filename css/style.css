@@ -89,7 +89,8 @@ ul li {
   list-style: none;
 }
 
-ul li a {
+ul li a,
+a {
   text-decoration: none;
 }
 
@@ -220,7 +221,7 @@ header .mobile-menu {
   display: none;
   position: absolute;
   width: 100%;
-  background-color: var(--bg-light-primary--);
+  background-color: var(--bg-primary--);
   padding: 15px;
 }
 
@@ -293,7 +294,6 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   background-color: var(--bg-light-secondary--);
   color: var(--text-primary--);
 }
-
 /* ========= header css end ========== */
 
 /* ========= banner css start ========== */
@@ -365,19 +365,19 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   font-size: 18px;
   font-weight: 700;
 }
-.button-left{
+.button-left {
   display: flex;
   flex-direction: column;
   margin-top: 15px;
 }
-.button-left a{
+.button-left a {
   width: 250px;
   height: 70px;
   margin-bottom: 15px;
   text-decoration: none;
   margin-top: 15px;
 }
-.button-left .contact{
+.button-left .contact {
   background: var(--bg-secondary--);
   color: var(--text-primary--);
   font-size: 20px;
@@ -387,7 +387,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   padding-left: 30px;
   border-radius: 10px;
 }
-.button-left .prices{
+.button-left .prices {
   background: var(--bg-primary--);
   color: #fff;
   font-size: 20px;
@@ -398,10 +398,10 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   border-radius: 10px;
 }
 /* why us */
-.why-us{
+.why-us {
   padding-top: 20px;
 }
-.why-us h4{
+.why-us h4 {
   font-size: 25px;
   padding-bottom: 20px;
 }
@@ -411,13 +411,13 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   gap: 15px;
   margin-bottom: 20px;
 }
-.why-box .left-img{
+.why-box .left-img {
   width: 55px;
 }
-.why-box .left-img img{
+.why-box .left-img img {
   width: 100%;
 }
-.why-box .text{
+.why-box .text {
   font-weight: 700;
 }
 
@@ -453,14 +453,13 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 }
 
 .service_section .service-content {
-  display: flex;
-  justify-content: center; 
+  padding: 15px 0;
 }
 
 .service_section .home-service-card {
-  max-width: 280px;
+  max-width: 400px;
   width: 100%;
-  min-height: 237px;
+  min-height: 387px;
   height: 100%;
   background-color: var(--text-white--);
   display: flex;
@@ -469,6 +468,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   align-items: center;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin: 0 auto;
 }
 
 .service_section .home-service-card:hover {
@@ -479,8 +479,8 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 
 .service_section .home-service-card div {
   background-color: var(--bg-light-primary--);
-  width: 96px;
-  height: 84px;
+  width: 120px;
+  height: 108px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -492,15 +492,16 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 }
 
 .service_section .home-service-card h1 {
-  font-size: 26px;
+  font-size: 32px;
   padding-top: 10px;
   font-weight: 700;
+  color: var(--text-primary--);
 }
 
 .service_section .business-service-card {
-  max-width: 280px;
+  max-width: 400px;
   width: 100%;
-  min-height: 237px;
+  min-height: 387px;
   height: 100%;
   background-color: var(--text-white--);
   display: flex;
@@ -509,6 +510,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   align-items: center;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin: 0 auto;
 }
 
 .service_section .business-service-card:hover {
@@ -519,8 +521,8 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 
 .service_section .business-service-card div {
   background-color: var(--bg-light-secondary--);
-  width: 96px;
-  height: 84px;
+  width: 120px;
+  height: 108px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -532,9 +534,10 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 }
 
 .service_section .business-service-card h1 {
-  font-size: 26px;
+  font-size: 32px;
   padding-top: 10px;
   font-weight: 700;
+  color: var(--text-primary--);
 }
 /* ========= services css end ========== */
 
@@ -591,7 +594,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 
 /* ========= qr code css start ========== */
 .qr_code_section {
-  padding:50px 15px ;
+  padding: 50px 15px;
   max-width: 950px;
   width: 100%;
 }
@@ -607,8 +610,8 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 .qr_code_section .qr_code_images .whatsapp_qr_code,
 .qr_code_section .qr_code_images .chat_qr_code,
 .qr_code_section .qr_code_images .email_qr_code {
-  max-width: 210px;
-  max-height: 210px;
+  max-width: 200px;
+  max-height: 200px;
   background-color: var(--text-white--);
   padding: 5px;
   display: flex;

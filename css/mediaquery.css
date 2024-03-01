@@ -148,6 +148,14 @@
   .contact-page-content {
     margin: 0 auto;
   }
+
+  .about-image-section
+    .about-us-page-content
+    .about-us-card
+    .inner-card-content
+    p {
+    font-size: 16px;
+  }
 }
 
 /* applies to small devices (landscape phones, less than 768px) */
@@ -367,7 +375,8 @@
   }
 
   .contact-us-section h1,
-  .contact-form-section h1 {
+  .contact-form-section h1,
+  .about-image-section h1 {
     font-size: 34px;
   }
 
@@ -412,5 +421,13 @@
 
   .banner-content h1 {
     font-size: 38px;
+  }
+
+  .about-image-section
+    .about-us-page-content
+    .about-us-card
+    .inner-card-content
+    p {
+    font-size: 14px;
   }
 }

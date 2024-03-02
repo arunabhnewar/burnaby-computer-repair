@@ -100,50 +100,30 @@
     transform: translateY(0px);
   }
 
-  .about-content .help-image {
+  .about-content .help-image,
+  footer .footer-content .help-image {
     min-height: 130px;
   }
 
-  .about-content .about-contact-content h5 {
+  .about-content .about-contact-content h5,
+  footer .footer-content .footer-contact-content h5 {
     font-size: 18px;
   }
 
-  .about-content .about-contact-content .about-contact-icon div {
+  .about-content .about-contact-content .about-contact-icon div,
+  footer .footer-content .footer-contact-content .footer-contact-icon div {
     padding-right: 15px;
   }
 
-  .about-content .about-contact-content .about-contact-icon div i {
+  .about-content .about-contact-content .about-contact-icon div i,
+  footer .footer-content .footer-contact-content .footer-contact-icon div i {
     font-size: 18px;
   }
 
-  .about-content .about-contact-content .about-contact-icon div a {
+  .about-content .about-contact-content .about-contact-icon div a,
+  footer .footer-content .footer-contact-content .footer-contact-icon div a {
     font-size: 18px;
   }
-  /* footer .footer-content .help-image {
-    max-width: 90px;
-  } */
-
-  /* footer .footer-content .footer-contact-content h5 {
-    font-size: 15px;
-  } */
-
-  /* footer
-    .footer-content
-    .footer-contact-content
-    .footer-contact-icon
-    div
-    .ri-phone-fill,
-  .ri-whatsapp-line,
-  .ri-chat-1-line,
-  .ri-mail-line {
-    font-size: 15px;
-  } */
-
-  /* footer .footer-content .footer-contact-content .footer-contact-icon div span {
-    border-bottom: 1px solid var(--text-primary--);
-    font-size: 15px;
-    font-weight: 700;
-  } */
 
   .service_section .home-service-card,
   .service_section .business-service-card {
@@ -174,6 +154,23 @@
     .inner-card-content
     p {
     font-size: 16px;
+  }
+}
+
+/* Custom Media Query For better responsive */
+@media (max-width: 899px) {
+  .payment-system,
+  .payment-system2 {
+    padding-top: 20px;
+  }
+
+  .payment-system2 {
+    margin-top: 30px;
+  }
+
+  .payment-system div img,
+  .payment-system2 div img {
+    width: 70px;
   }
 }
 
@@ -228,31 +225,38 @@
     padding: 0 15px;
   }
 
-  .about-content .help-image {
+  .about-content .help-image,
+  footer .footer-content .help-image {
     max-width: 200px;
     max-height: 150px;
     min-width: none;
     min-height: none;
+    margin: 0 auto;
   }
 
-  .about-content .about-contact-content h5 {
+  .about-content .about-contact-content h5,
+  footer .footer-content .footer-contact-content h5 {
     text-align: center;
     font-size: 20px;
   }
 
-  .about-content .about-contact-content .about-contact-icon div {
+  .about-content .about-contact-content .about-contact-icon div,
+  footer .footer-content .footer-contact-content .footer-contact-icon div {
     padding-right: 20px;
   }
 
-  .about-content .about-contact-content .about-contact-icon {
+  .about-content .about-contact-content .about-contact-icon,
+  footer .footer-content .footer-contact-content .footer-contact-icon {
     justify-content: center;
   }
 
-  .about-content .about-contact-content .about-contact-icon div i {
+  .about-content .about-contact-content .about-contact-icon div i,
+  footer .footer-content .footer-contact-content .footer-contact-icon div i {
     font-size: 22px;
   }
 
-  .about-content .about-contact-content .about-contact-icon div a {
+  .about-content .about-contact-content .about-contact-icon div a,
+  footer .footer-content .footer-contact-content .footer-contact-icon div a {
     font-size: 20px;
   }
 
@@ -274,42 +278,12 @@
     text-align: center;
   }
 
-  footer .footer-content .help-image,
-  .about-content .help-image {
-    max-width: 200px;
-    margin: 0 auto;
-  }
-
-  /* footer .footer-content .footer-contact-content h5 {
-    font-size: 20px;
-  } */
-
   footer .footer-content .footer-contact-content .footer-contact-icon {
-    /* max-width: 200px;
-    width: 100%;
-    margin: 20px auto; */
     width: 100%;
     margin: 20px auto;
     display: flex;
     justify-content: center;
   }
-
-  /* footer
-    .footer-content
-    .footer-contact-content
-    .footer-contact-icon
-    div
-    .ri-phone-fill,
-  .ri-whatsapp-line,
-  .ri-chat-1-line,
-  .ri-mail-line {
-    font-size: 18px;
-    padding-right: 2px;
-  } */
-
-  /* footer .footer-content .footer-contact-content .footer-contact-icon div span {
-    font-size: 16px;
-  } */
 
   .payment-system {
     margin: 20px 0;

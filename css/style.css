@@ -13,6 +13,7 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f8fbfe;
+  overflow-x: hidden;
 }
 
 :root {
@@ -685,15 +686,17 @@ footer .footer-content {
 }
 
 footer .footer-content .help-image {
-  max-width: 200px;
+  min-width: 150px;
+  min-height: 140px;
 }
 
 footer .footer-content .help-image img {
   width: 100%;
+  height: 100%;
 }
 
 footer .footer-content .footer-contact-content h5 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   margin-bottom: 5px;
   margin-top: 15px;
@@ -703,7 +706,7 @@ footer .footer-content .footer-contact-content .footer-contact-icon {
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 12px;
 }
 
 footer .footer-content .footer-contact-content .footer-contact-icon div {
@@ -717,7 +720,7 @@ footer .footer-content .footer-contact-content .footer-contact-icon div i {
 
 footer .footer-content .footer-contact-content .footer-contact-icon div a {
   border-bottom: 1px solid var(--text-primary--);
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   color: var(--text-primary--);
 }
@@ -737,17 +740,12 @@ footer
   justify-content: center;
   align-items: center;
   gap: 30px;
-  padding-top: 20px;
-}
-
-.payment-system2 {
-  margin-top: 10px;
+  padding-top: 15px;
 }
 
 .payment-system div img,
 .payment-system2 div img {
-  width: 70px;
-  /* width: 100%; */
+  width: 40px;
 }
 
 footer .footer-address {

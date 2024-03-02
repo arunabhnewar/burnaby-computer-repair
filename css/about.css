@@ -20,23 +20,16 @@
 }
 
 .about-image-section .about-us-page-content .about-us-card {
-  /* background-color: var(--text-white--); */
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-  /* max-width: 300px; */
   margin: 0 auto;
   width: 100%;
   height: auto;
-  /* border-radius: 10px; */
 }
 .about-image-section .about-us-page-content .about-us-card .inner-card-content {
   display: flex;
   align-items: stretch;
   gap: 20px;
 }
+
 .about-image-section
   .about-us-page-content
   .about-us-card

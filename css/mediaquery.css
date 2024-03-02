@@ -152,7 +152,8 @@
     .about-us-page-content
     .about-us-card
     .inner-card-content
-    p {
+    p,
+  .why-us-page .why-us-page-content .why-us-card .inner-why-card-content p {
     font-size: 16px;
   }
 }
@@ -304,6 +305,36 @@
   .submit-form-btn {
     margin: 20px auto;
   }
+
+  .why-us-page-bottom h3 {
+    font-size: 26px;
+  }
+
+  .why-us-page-bottom p {
+    font-size: 18px;
+  }
+
+  .why-us-page-bottom iframe {
+    height: 300px;
+  }
+
+  .why-us-page .why-us-page-content .why-us-img-card .why-us-page-image {
+    max-width: 160px;
+  }
+
+  .why-us-page
+    .why-us-page-content
+    .why-us-card
+    .inner-why-card-content
+    .check-mark-image,
+  .about-image-section
+    .about-us-page-content
+    .about-us-card
+    .inner-card-content
+    .check-mark-image {
+    max-width: 28px;
+    max-height: 28px;
+  }
 }
 
 /*  applies to x-small devices (portrait phones, less than 576px) */
@@ -397,7 +428,8 @@
   .contact-us-section h1,
   .contact-form-section h1,
   .about-image-section h1,
-  .service-heading h1 {
+  .service-heading h1,
+  .why-us-page h1 {
     font-size: 34px;
   }
 
@@ -449,7 +481,8 @@
     .about-us-card
     .inner-card-content
     p,
-  .service-heading p {
+  .service-heading p,
+  .why-us-page .why-us-page-content .why-us-card .inner-why-card-content p {
     font-size: 14px;
   }
 
@@ -469,5 +502,35 @@
   .contact-form-section form textarea::placeholder,
   .contact-form-section form input::placeholder {
     font-size: 14px;
+  }
+
+  .why-us-page-bottom h3 {
+    font-size: 22px;
+  }
+
+  .why-us-page-bottom p {
+    font-size: 16px;
+  }
+
+  .why-us-page-bottom iframe {
+    height: 250px;
+  }
+
+  .why-us-page .why-us-page-content .why-us-img-card .why-us-page-image {
+    max-width: 140px;
+  }
+
+  .why-us-page
+    .why-us-page-content
+    .why-us-card
+    .inner-why-card-content
+    .check-mark-image,
+  .about-image-section
+    .about-us-page-content
+    .about-us-card
+    .inner-card-content
+    .check-mark-image {
+    max-width: 24px;
+    max-height: 24px;
   }
 }

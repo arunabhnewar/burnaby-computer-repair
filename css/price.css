@@ -27,6 +27,7 @@
 .price-box .title {
     font-weight: 600;
     font-size: 24px;
+    padding-left: 10px;
 }
 
 .price-box .right-box h3{

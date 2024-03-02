@@ -248,6 +248,20 @@
 
   .about-content .about-contact-content .about-contact-icon div,
   footer .footer-content .footer-contact-content .footer-contact-icon div {
+    display: block;
+  }
+
+  .about-content .about-contact-content .about-contact-icon .large-screen-show,
+  footer
+    .footer-content
+    .footer-contact-content
+    .footer-contact-icon
+    .large-screen-show {
+    display: none;
+  }
+
+  .about-content .about-contact-content .about-contact-icon div,
+  footer .footer-content .footer-contact-content .footer-contact-icon div {
     padding-right: 20px;
   }
 
@@ -259,11 +273,25 @@
   .about-content .about-contact-content .about-contact-icon div i,
   footer .footer-content .footer-contact-content .footer-contact-icon div i {
     font-size: 22px;
+    padding-right: 5px;
   }
 
   .about-content .about-contact-content .about-contact-icon div a,
   footer .footer-content .footer-contact-content .footer-contact-icon div a {
     font-size: 20px;
+    border-bottom: 1px solid var(--text-primary--);
+    font-weight: 700;
+    color: var(--text-primary--);
+  }
+
+  footer
+    .footer-content
+    .footer-contact-content
+    .footer-contact-icon
+    div
+    a:hover,
+  .about-content .about-contact-content .about-contact-icon div a:hover {
+    color: var(--text-green--);
   }
 
   .button-left {

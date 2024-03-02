@@ -361,21 +361,31 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 
 .about-content .about-contact-content .about-contact-icon div {
   padding-right: 20px;
+  display: none;
 }
 
-.about-content .about-contact-content .about-contact-icon div i {
+.about-content .about-contact-content .about-contact-icon .large-screen-show {
+  display: block;
+  padding-right: 20px;
+}
+
+.about-content .about-contact-content .about-contact-icon .large-screen-show i {
   font-size: 22px;
   padding-right: 5px;
 }
 
-.about-content .about-contact-content .about-contact-icon div a {
+.about-content .about-contact-content .about-contact-icon .large-screen-show a {
   border-bottom: 1px solid var(--text-primary--);
   font-size: 20px;
   font-weight: 700;
   color: var(--text-primary--);
 }
 
-.about-content .about-contact-content .about-contact-icon div a:hover {
+.about-content
+  .about-contact-content
+  .about-contact-icon
+  .large-screen-show
+  a:hover {
   color: var(--text-green--);
 }
 
@@ -715,14 +725,55 @@ footer .footer-content .footer-contact-content .footer-contact-icon {
 
 footer .footer-content .footer-contact-content .footer-contact-icon div {
   padding-right: 20px;
+  display: none;
 }
 
-footer .footer-content .footer-contact-content .footer-contact-icon div i {
+footer
+  .footer-content
+  .footer-contact-content
+  .footer-contact-icon
+  .large-screen-show {
+  display: block;
+  padding-right: 20px;
+}
+
+/* footer .footer-content .footer-contact-content .footer-contact-icon div i {
+  font-size: 22px;
+  padding-right: 5px;
+} */
+
+/* footer .footer-content .footer-contact-content .footer-contact-icon div a {
+  border-bottom: 1px solid var(--text-primary--);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary--);
+} */
+
+/* footer
+  .footer-content
+  .footer-contact-content
+  .footer-contact-icon
+  div
+  a:hover {
+  color: var(--text-green--);
+} */
+
+footer
+  .footer-content
+  .footer-contact-content
+  .footer-contact-icon
+  .large-screen-show
+  i {
   font-size: 22px;
   padding-right: 5px;
 }
 
-footer .footer-content .footer-contact-content .footer-contact-icon div a {
+footer
+  .footer-content
+  .footer-contact-content
+  .footer-contact-icon
+  .large-screen-show
+  a {
   border-bottom: 1px solid var(--text-primary--);
   font-size: 20px;
   font-weight: 700;
@@ -733,7 +784,7 @@ footer
   .footer-content
   .footer-contact-content
   .footer-contact-icon
-  div
+  .large-screen-show
   a:hover {
   color: var(--text-green--);
 }

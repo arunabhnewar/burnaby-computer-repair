@@ -1,0 +1,20 @@
+/* price section start */
+.price-area {
+  padding-top: 30px;
+  max-width: 950px;
+  width: 100%;
+}
+.common-padding{
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+.left-bg{
+    background: #D2F3FC;
+}
+.right-bg{
+    background: #d7deff;
+}
+.col-common-padding{
+    padding: 20px 15px;
+}
+/* price section end */

@@ -1,0 +1,41 @@
+.service-area {
+    padding-top: 30px;
+    max-width: 950px;
+    width: 100%;
+  }
+  .mb-15{
+    margin-bottom: 25px;
+  }
+  .service-box {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 25px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 100%;
+}
+.service-box .box-top {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+  /* .service-box .box-top{} */
+  .service-box .box-top i{
+    font-size: 40px;
+    color: var(--bg-primary--);
+  }
+  .service-box .box-top h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+  .service-box .box-bottom ul{}
+  .service-box .box-bottom ul li {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.service-box .box-bottom ul li i {
+    font-size: 22px;
+    color: var(--text-green--);
+}
+  .service-box .box-bottom ul li p{}

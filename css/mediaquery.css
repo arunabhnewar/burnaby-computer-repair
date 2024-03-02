@@ -396,7 +396,8 @@
 
   .contact-us-section h1,
   .contact-form-section h1,
-  .about-image-section h1 {
+  .about-image-section h1,
+  .service-heading h1 {
     font-size: 34px;
   }
 
@@ -447,7 +448,26 @@
     .about-us-page-content
     .about-us-card
     .inner-card-content
-    p {
+    p,
+  .service-heading p {
+    font-size: 14px;
+  }
+
+  .service-box .box-top h4 {
+    font-size: 18px;
+  }
+
+  .service-box .box-bottom ul li {
+    font-size: 16px;
+  }
+
+  .contact-form-section form label {
+    font-size: 15px;
+  }
+
+  .contact-form-section form label span,
+  .contact-form-section form textarea::placeholder,
+  .contact-form-section form input::placeholder {
     font-size: 14px;
   }
 }

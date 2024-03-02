@@ -224,7 +224,12 @@
     width: 100%;
     padding: 0 15px;
   }
-
+  .price-box .title {
+    padding: 20px;
+}
+.right-box {
+  padding: 20px;
+}
   .about-content .help-image,
   footer .footer-content .help-image {
     max-width: 200px;

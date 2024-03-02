@@ -426,7 +426,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   margin-bottom: 20px;
 }
 .why-box .left-img {
-  width: 85px;
+  width: 110px;
 }
 .why-box .left-img img {
   width: 100%;
@@ -487,6 +487,10 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
   border-radius: 10px;
   width: 230px;
   height: 70px;
+}
+
+.about-right-bottom {
+  margin-top: 50px;
 }
 /* ========= about css end ========== */
 

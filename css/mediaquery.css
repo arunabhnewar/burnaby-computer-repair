@@ -264,6 +264,10 @@
     justify-content: center;
     align-items: center;
   }
+
+  .why-box {
+    flex-direction: column;
+  }
   .why-us {
     display: flex;
     flex-direction: column;

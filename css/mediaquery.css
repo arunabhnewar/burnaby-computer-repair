@@ -100,6 +100,25 @@
     transform: translateY(0px);
   }
 
+  .about-content .help-image {
+    min-height: 130px;
+  }
+
+  .about-content .about-contact-content h5 {
+    font-size: 18px;
+  }
+
+  .about-content .about-contact-content .about-contact-icon div {
+    padding-right: 15px;
+  }
+
+  .about-content .about-contact-content .about-contact-icon div i {
+    font-size: 18px;
+  }
+
+  .about-content .about-contact-content .about-contact-icon div a {
+    font-size: 18px;
+  }
   /* footer .footer-content .help-image {
     max-width: 90px;
   } */
@@ -147,6 +166,14 @@
 
   .contact-page-content {
     margin: 0 auto;
+  }
+
+  .about-image-section
+    .about-us-page-content
+    .about-us-card
+    .inner-card-content
+    p {
+    font-size: 16px;
   }
 }
 
@@ -200,12 +227,35 @@
     width: 100%;
     padding: 0 15px;
   }
+
+  .about-content .help-image {
+    max-width: 200px;
+    max-height: 150px;
+    min-width: none;
+    min-height: none;
+  }
+
   .about-content .about-contact-content h5 {
     text-align: center;
+    font-size: 20px;
   }
+
+  .about-content .about-contact-content .about-contact-icon div {
+    padding-right: 20px;
+  }
+
   .about-content .about-contact-content .about-contact-icon {
     justify-content: center;
   }
+
+  .about-content .about-contact-content .about-contact-icon div i {
+    font-size: 22px;
+  }
+
+  .about-content .about-contact-content .about-contact-icon div a {
+    font-size: 20px;
+  }
+
   .button-left {
     justify-content: center;
     align-items: center;
@@ -267,6 +317,14 @@
 
   .payment-system2 {
     margin-bottom: 20px;
+  }
+
+  .banner-content {
+    padding-top: 40px;
+  }
+
+  .submit-form-btn {
+    margin: 20px auto;
   }
 }
 
@@ -359,7 +417,8 @@
   }
 
   .contact-us-section h1,
-  .contact-form-section h1 {
+  .contact-form-section h1,
+  .about-image-section h1 {
     font-size: 34px;
   }
 
@@ -395,6 +454,22 @@
   }
 
   .contact-us-section .contact-address-card .address-txt {
+    font-size: 14px;
+  }
+
+  .banner-content {
+    padding-top: 80px;
+  }
+
+  .banner-content h1 {
+    font-size: 38px;
+  }
+
+  .about-image-section
+    .about-us-page-content
+    .about-us-card
+    .inner-card-content
+    p {
     font-size: 14px;
   }
 }

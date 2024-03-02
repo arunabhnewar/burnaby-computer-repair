@@ -227,10 +227,10 @@
   }
   .price-box .title {
     padding: 20px;
-}
-.right-box {
-  padding: 20px;
-}
+  }
+  .right-box {
+    padding: 20px;
+  }
   .about-content .help-image,
   footer .footer-content .help-image {
     max-width: 200px;
@@ -434,7 +434,8 @@
   .contact-form-section h1,
   .about-image-section h1,
   .service-heading h1,
-  .why-us-page h1 {
+  .why-us-page h1,
+  .price h1 {
     font-size: 34px;
   }
 
@@ -537,5 +538,21 @@
     .check-mark-image {
     max-width: 24px;
     max-height: 24px;
+  }
+
+  .price-box .title {
+    font-size: 20px;
+  }
+
+  .price-box .right-box h3 {
+    font-size: 18px;
+  }
+
+  .price-box .right-box p,
+  .price-box .right-box ul li,
+  .price-box .right-box ul li a,
+  .price-box .right-box a {
+    font-size: 16px;
+    line-height: 25px;
   }
 }

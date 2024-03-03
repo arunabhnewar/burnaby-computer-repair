@@ -20,10 +20,10 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .left-bg {
-  background: transparent;
+  background: var(--text-white--);
 }
 .right-bg {
-  background: transparent;
+  background: var(--text-white--);
 }
 .col-common-padding {
   padding: 20px 15px;

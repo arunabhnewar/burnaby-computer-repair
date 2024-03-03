@@ -18,12 +18,13 @@
   padding: 0 15px;
   margin-bottom: 25px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background: var(--text-white--);
 }
 .left-bg {
-  background: transparent;
+  background: var(--text-white--);
 }
 .right-bg {
-  background: transparent;
+  background: var(--text-white--);
 }
 .col-common-padding {
   padding: 20px 15px;

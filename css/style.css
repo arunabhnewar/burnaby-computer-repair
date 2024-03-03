@@ -144,53 +144,6 @@ header .nav-mid-content ul li a:hover {
   transition: 0.5s ease-in-out;
 }
 
-/* header .nav-mid-content ul li .dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-header .nav-mid-content ul li .dropdown .dropbtn {
-  color: var(--text-white--);
-  font-size: 18px;
-  font-weight: 600;
-  padding: 0 5px;
-  background-color: transparent;
-  border: 0;
-  outline: 0;
-  cursor: pointer;
-  position: relative;
-}
-
-header .nav-mid-content ul li .dropdown .dropbtn:hover {
-  color: var(--bg-secondary--);
-  transition: 0.5s ease-in-out;
-}
-
-header .nav-mid-content ul li .dropdown .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: var(--bg-light-primary--);
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  top: 90%;
-}
-
-header .nav-mid-content ul li .dropdown .dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  font-size: 18px;
-}
-
-header .nav-mid-content ul li .dropdown-content a:hover {
-  background-color: var(--bg-light-secondary--);
-  color: var(--text-primary--);
-} */
-
 header .nav-right-content ul li a button {
   background-color: var(--bg-secondary--);
   border: 0;
@@ -266,42 +219,6 @@ header .mobile-menu ul li a .mobile-contact-btn:hover {
   transition: all 0.5s ease-in-out;
 }
 
-/* header .mobile-menu ul li .mobile-dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-header .mobile-menu ul li .mobile-dropdown .mobile-dropbtn {
-  color: var(--text-white--);
-  font-size: 18px;
-  font-weight: 600;
-  background-color: transparent;
-  border: 0;
-  outline: 0;
-  cursor: pointer;
-  padding: 12px 15px;
-}
-
-header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content {
-  display: none;
-  min-width: 160px;
-}
-
-header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a {
-  float: none;
-  color: var(--text-white--);
-  padding: 12px 25px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  font-size: 17px;
-  font-weight: 600;
-}
-
-header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
-  background-color: var(--bg-light-secondary--);
-  color: var(--text-primary--);
-} */
 /* ========= header css end ========== */
 
 /* ========= banner css start ========== */

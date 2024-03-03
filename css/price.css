@@ -11,12 +11,13 @@
 }
 .price-area {
   padding-top: 30px;
-  max-width: 950px;
+  max-width: 980px;
   width: 100%;
 }
 .common-padding {
   padding: 0 15px;
   margin-bottom: 25px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .left-bg {
   background: transparent;

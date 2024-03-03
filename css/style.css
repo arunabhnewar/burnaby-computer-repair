@@ -307,7 +307,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 /* ========= banner css start ========== */
 .banner-content {
   padding-top: 35px;
-  max-width: 950px;
+  max-width: 980px;
   width: 100%;
   height: 300px;
   display: flex;
@@ -331,18 +331,18 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 /* ========= about css start ========== */
 .about-content {
   padding: 30px 0;
-  max-width: 950px;
+  max-width: 980px;
   width: 100%;
 }
 
 .about-content .help-image {
-  min-width: 150px;
-  min-height: 140px;
+  min-width: 160px;
 }
 
 .about-content .help-image img {
   width: 100%;
-  height: 100%;
+  height: auto;
+  margin-top: 15px;
 }
 
 .about-content .about-contact-content h5 {
@@ -655,7 +655,7 @@ header .mobile-menu ul li .mobile-dropdown .mobile-dropdown-content a:hover {
 /* ========= qr code css start ========== */
 .qr_code_section {
   padding: 50px 15px;
-  max-width: 950px;
+  max-width: 980px;
   width: 100%;
 }
 
@@ -695,18 +695,18 @@ footer {
 
 footer .footer-content {
   padding-top: 30px;
-  max-width: 950px;
+  max-width: 980px;
   width: 100%;
 }
 
 footer .footer-content .help-image {
-  min-width: 150px;
-  min-height: 140px;
+  min-width: 160px;
 }
 
 footer .footer-content .help-image img {
   width: 100%;
-  height: 100%;
+  height: auto;
+  margin-top: 15px;
 }
 
 footer .footer-content .footer-contact-content h5 {

@@ -22,19 +22,22 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  align-items: start;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   margin: 0 auto;
-  max-width: 300px;
+  max-width: 400px;
   width: 100%;
   min-height: 237px;
   height: 100%;
   border-radius: 10px;
   position: relative;
+  padding: 25px 20px 30px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
 }
 
 .contact-us-section .contact-us-card:hover {
-  transition: all 0.5s ease-in-out;
+ 
   border: 1px solid var(--bg-primary--);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -100,7 +103,7 @@
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 .contact-us-section .contact-us-card .text-line-contact a,
@@ -118,16 +121,17 @@
   background-color: var(--text-white--);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  margin: 30px auto;
-  max-width: 350px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  /* margin: 30px auto; */
+  max-width: 400px;
   width: 100%;
   min-height: 237px;
   height: 100%;
   border-radius: 10px;
   position: relative;
+  padding: 25px 20px 30px;
 }
 
 .contact-us-section .contact-address-card .contact-address-icon {
@@ -141,20 +145,23 @@
   position: absolute;
   top: -12%;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
 }
 
 .contact-us-section .contact-address-card:hover {
-  transition: all 0.5s ease-in-out;
+ 
   border: 1px solid var(--bg-primary--);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .contact-us-section .contact-address-card .address-txt {
   color: var(--text-secondary--);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
-  text-align: center;
+  text-align: left;
   line-height: 24px;
+  margin-bottom: 50px;
 }
 
 .contact-us-section .contact-address-card .address-txt strong {
@@ -189,7 +196,7 @@
 } */
 
 .contact-form-section form label {
-  font-size: 18px;
+  font-size: 16px;
   color: var(--text-secondary--);
   font-weight: 600;
 }
@@ -209,13 +216,14 @@
   color: var(--text-secondary--);
   font-weight: 400;
   font-family: "Roboto", sans-serif;
+  font-size: 15px;
 }
 
 .contact-form-section form input,
 .contact-form-section form textarea {
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 10px 15px;
+  padding: 4px 15px;
   background-color: #f4f4f4;
   border-radius: 5px;
   line-height: 25px;
@@ -230,17 +238,16 @@
 .contact-form-section form select {
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 10px 15px;
+  padding: 8px 15px;
   background-color: #f4f4f4;
   border-radius: 5px;
   line-height: 25px;
   outline: 0;
   border: 1px solid #e6e6e6;
   width: 100%;
-  font-size: 16px;
+  font-size: 15px;
   color: var(--text-primary--);
   font-weight: 600;
-  height: 49px;
   cursor: pointer;
 }
 

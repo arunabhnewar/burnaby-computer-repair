@@ -386,6 +386,28 @@
   .contact-btns .conditions-btn {
     min-width: 250px;
   }
+
+  .about-header-img {
+    max-width: 120px !important;
+    width: 100% !important;
+    max-height: unset !important;
+  }
+
+  .about-header-img img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .celebration-image {
+    max-width: 120px !important;
+    width: 100% !important;
+    max-height: unset !important;
+  }
+
+  .celebration-image img {
+    width: 100% !important;
+    height: auto !important;
+  }
 }
 
 /*  applies to x-small devices (portrait phones, less than 576px) */

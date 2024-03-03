@@ -267,7 +267,7 @@
 
 .submit-form-btn {
   max-width: 200px;
-  margin: 20px 0 0 auto;
+  /* margin: 20px 0 0 auto; */
 }
 
 .submit-form-btn .submit-btn {

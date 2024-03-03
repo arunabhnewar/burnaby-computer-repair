@@ -30,7 +30,8 @@
 }
 
 .why-us-page .why-us-page-content .why-us-img-card .why-us-page-image {
-  max-width: 200px;
+  max-width: 120px;
+  max-height: 90px;
 }
 
 .why-us-page .why-us-page-content .why-us-img-card .why-us-page-image img {

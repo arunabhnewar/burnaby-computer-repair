@@ -368,6 +368,12 @@
     max-width: 28px;
     max-height: 28px;
   }
+
+  .conditions-btn {
+    max-width: 300px;
+    width: 100%;
+    margin: 20px auto;
+  }
 }
 
 /*  applies to x-small devices (portrait phones, less than 576px) */

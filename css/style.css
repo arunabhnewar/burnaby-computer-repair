@@ -815,3 +815,43 @@ footer .footer-address h6 {
 }
 
 /* ========= footer css end ========== */
+
+/* ========= page buttons groups css start ========== */
+.page-buttons-groups {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.page-buttons-groups a {
+  width: 250px;
+  height: 70px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.page-buttons-groups .contact-pag-btn {
+  background: var(--bg-secondary--);
+  color: var(--text-primary--);
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+
+.page-buttons-groups .price-page-btn {
+  background: var(--bg-primary--);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+/* ========= page buttons groups css start ========== */

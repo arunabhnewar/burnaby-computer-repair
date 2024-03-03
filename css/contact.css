@@ -6,6 +6,10 @@
   margin-bottom: 50px;
 }
 
+.contact-us-section .contact-top-section {
+  margin: 50px 0 20px 0;
+}
+
 .contact-us-section .contact-page-content {
   padding: 35px 0;
 }
@@ -22,8 +26,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  align-items: center;
   margin: 0 auto;
   max-width: 400px;
   width: 100%;
@@ -37,7 +40,6 @@
 }
 
 .contact-us-section .contact-us-card:hover {
- 
   border: 1px solid var(--bg-primary--);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -51,8 +53,10 @@
   align-items: center;
   border-radius: 50%;
   position: absolute;
-  top: -15%;
+  top: -12%;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
 }
 
 .ri-phone-line,
@@ -64,16 +68,20 @@
   color: var(--text-green--);
 }
 
+.contact-us-section .contact-us-card .contact-text-left {
+  text-align: left;
+}
+
 .contact-us-section .contact-us-card .help-line {
   color: var(--text-green--);
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 800;
   line-height: 40px;
 }
 
 .contact-us-section .contact-us-card .help-line-contact {
   color: var(--text-green--);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 30px;
   text-decoration: underline;
@@ -91,7 +99,7 @@
 
 .contact-us-section .contact-us-card h5 {
   color: var(--text-secondary--);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 30px;
 }
@@ -100,7 +108,7 @@
 .contact-us-section .contact-us-card .price-line-contact,
 .contact-us-section .contact-address-card .address-txt {
   color: var(--text-secondary--);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 30px;
   text-align: left;
@@ -110,6 +118,7 @@
 .contact-us-section .contact-us-card .price-line-contact a {
   color: var(--text-green--);
   text-decoration: underline;
+  font-size: 18px;
 }
 
 .contact-us-section .contact-us-card .text-line-contact a:hover,
@@ -123,8 +132,6 @@
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-  /* margin: 30px auto; */
   max-width: 400px;
   width: 100%;
   min-height: 237px;
@@ -150,7 +157,6 @@
 }
 
 .contact-us-section .contact-address-card:hover {
- 
   border: 1px solid var(--bg-primary--);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -181,19 +187,18 @@
 
 /* ========= contact form css start ========== */
 .contact-form-section {
-  margin-top: 50px;
   max-width: 990px;
   width: 100%;
   margin-bottom: 100px;
 }
 
-/* .contact-form-section h1 {
+.contact-form-section h1 {
   text-align: center;
   font-size: 40px;
   color: var(--text-primary--);
   font-weight: 800;
-  margin-bottom: 100px;
-} */
+  margin-bottom: 20px;
+}
 
 .contact-form-section form label {
   font-size: 16px;
@@ -271,12 +276,18 @@
   background-color: var(--light-green--);
 }
 
-.submit-form-btn {
-  max-width: 200px;
-  margin: 20px auto 0 0;
+.contact-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
 }
 
-.submit-form-btn .submit-btn {
+.contact-btns .submit-form-btn {
+  min-width: 200px;
+}
+
+.contact-btns .submit-form-btn .submit-btn {
   cursor: pointer;
   background-color: var(--bg-secondary--);
   width: 100%;
@@ -288,26 +299,24 @@
   border-radius: 10px;
 }
 
-.submit-form-btn .submit-btn:hover {
+.contact-btns .submit-form-btn .submit-btn:hover {
   transition: all 0.5s ease-in-out;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   background-color: var(--bg-primary--);
   color: var(--text-white--);
 }
 
-.conditions-btn {
-  max-width: 300px;
-  width: 100%;
-  margin: -91px 0 0 auto;
+.contact-btns .conditions-btn {
+  min-width: 300px;
 }
 
-.conditions-btn a {
+.contact-btns .conditions-btn a {
   text-decoration: none;
   width: 100%;
   height: 65px;
 }
 
-.conditions-btn .terms-btn {
+.contact-btns .conditions-btn .terms-btn {
   background: var(--bg-primary--);
   color: #fff;
   font-size: 20px;
@@ -319,7 +328,7 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.conditions-btn .terms-btn:hover {
+.contact-btns .conditions-btn .terms-btn:hover {
   transition: all 0.5s ease-in-out;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   background-color: var(--bg-secondary--);

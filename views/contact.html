@@ -134,6 +134,225 @@
       <section class="container contact-us-section">
         <h1>CONTACT US</h1>
 
+        <section class="container contact-form-section">
+          <!-- <h1>Get In Touch</h1> -->
+
+          <!------- contact form start -------->
+          <form action="" method="post">
+            <div class="row">
+              <!------- Company field start -------->
+              <div class="col-12 col-md-12 col-sm-12">
+                <div>
+                  <label for="company"
+                    >Company <span>(Optional for residential)</span></label
+                  >
+                  <br />
+                  <input
+                    type="text"
+                    name="COMPANY"
+                    id="company"
+                    placeholder="Enter company name" />
+                </div>
+              </div>
+              <!------- Company field end -------->
+
+              <!------- First Name field start -------->
+              <div class="col-6 col-md-12 col-sm-12">
+                <div>
+                  <label for="firstName">First Name <sup>*</sup> </label>
+                  <br />
+                  <input
+                    type="text"
+                    name="FName"
+                    id="firstName"
+                    placeholder="Enter first name" />
+                </div>
+              </div>
+              <!------- First Name  field end -------->
+
+              <!------- Last Name field start -------->
+              <div class="col-6 col-md-12 col-sm-12">
+                <div>
+                  <label for="lastName">Last Name <sup>*</sup></label>
+                  <br />
+                  <input
+                    type="text"
+                    name="LName"
+                    id="lastName"
+                    placeholder="Enter last name" />
+                </div>
+              </div>
+              <!------- Last Name field end -------->
+
+              <!------- Email field start -------->
+              <div class="col-6 col-md-12 col-sm-12">
+                <div>
+                  <label for="email">Email <sup>*</sup> </label>
+                  <br />
+                  <input
+                    type="email"
+                    name="EMail"
+                    id="email"
+                    placeholder="Enter email address" />
+                </div>
+              </div>
+              <!------- Email  field end -------->
+
+              <!------- subject field start -------->
+              <div class="col-6 col-md-12 col-sm-12">
+                <div>
+                  <label for="subject">Subject <span>(Optional)</span> </label>
+                  <br />
+                  <input
+                    type="text"
+                    name="SUBJECT"
+                    id="subject"
+                    placeholder="Enter subject" />
+                </div>
+              </div>
+              <!------- subject  field end -------->
+
+              <!------- Message field start -------->
+              <div class="col-12 col-md-12 col-sm-12">
+                <div>
+                  <label for="message">Message <sup>*</sup> </label>
+                  <br />
+                  <textarea
+                    name="MESSAGE"
+                    id="message"
+                    cols="30"
+                    rows="5"
+                    placeholder="Enter message"></textarea>
+                </div>
+              </div>
+              <!------- Message  field end -------->
+
+              <!------- Phone field start -------->
+              <div class="col-6 col-md-12 col-sm-12">
+                <div>
+                  <label for="phone"
+                    >Phone <span>(Optional but helpful)</span>
+                  </label>
+                  <br />
+
+                  <div class="row">
+                    <div class="col-7 col-md-7 col-sm-7">
+                      <input
+                        type="tel"
+                        name="TEL"
+                        id="phone"
+                        placeholder="Enter phone" />
+                    </div>
+
+                    <!------- Select field start -------->
+                    <div class="col-5 col-md-5 col-sm-5">
+                      <select name="TELTYPE" id="">
+                        <option disabled selected>Select</option>
+                        <option value="Home">Home</option>
+                        <option value="Work">Work</option>
+                        <option value="Cell">Cell</option>
+                        <option value="Day time">Day Time</option>
+                        <option value="evening">Evening</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!------- Phone  field end -------->
+
+              <!------- Alter Phone field start -------->
+              <div class="col-6 col-md-12 col-sm-12">
+                <div>
+                  <label for="altPhone"
+                    >Alt. Phone <span>(Optional )</span>
+                  </label>
+                  <br />
+
+                  <div class="row">
+                    <div class="col-7 col-md-7 col-sm-7">
+                      <input
+                        type="tel"
+                        name="ALTTEL"
+                        id="altPhone"
+                        placeholder="Enter alt. phone" />
+                    </div>
+
+                    <!------- Select field start -------->
+                    <div class="col-5 col-md-5 col-sm-5">
+                      <select name="ALTTELTYPE" id="">
+                        <option disabled selected>Select</option>
+                        <option value="Home">Home</option>
+                        <option value="Work">Work</option>
+                        <option value="Cell">Cell</option>
+                        <option value="Day time">Day Time</option>
+                        <option value="evening">Evening</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!------- Alter Phone  field end -------->
+
+              <!------- address field start -------->
+              <div class="col-12 col-md-12 col-sm-12">
+                <div>
+                  <label for="address"
+                    >Address for On-Site Service Requests
+                  </label>
+                  <br />
+
+                  <textarea
+                    name="ADDRESS"
+                    id="address"
+                    placeholder="Please remember to include apartment number and intercom/buzzer code, if any."
+                    cols="30"
+                    rows="5"></textarea>
+                </div>
+              </div>
+              <!------- address  field end -------->
+
+              <!------- terms checkbox start -------->
+              <div class="col-12 col-md-12 col-sm-12">
+                <div class="agreement-field">
+                  <input
+                    type="checkbox"
+                    name="AGREE"
+                    id="agreement"
+                    value="Yes, I have read, understood and agree to the Prices, Terms of Service and Conditions."
+                    checked />
+                  <label for="agreement"
+                    >Yes, I have read, understood and agree to the
+                    <a href="./prices.html"
+                      >Prices, Terms of Service and Conditions</a
+                    >.</label
+                  >
+                </div>
+              </div>
+              <!------- terms checkbox start -------->
+
+              <!------- submit button start -------->
+              <div class="col-12 col-md-12 col-sm-12">
+                <div class="submit-form-btn">
+                  <input
+                    type="submit"
+                    value="Submit"
+                    class="submit-btn"
+                    name="submitButtonName" />
+                </div>
+              </div>
+              <!------- submit button end -------->
+            </div>
+          </form>
+          <!------- contact form end -------->
+
+          <!------- Price, Terms & Conditions Button -------->
+          <div class="conditions-btn">
+            <a class="terms-btn" href="./prices.html"
+              >Prices, Terms and Conditions</a
+            >
+          </div>
+        </section>
+
         <div class="row">
           <!------- Contact Phone Card start -------->
           <div class="col-4 col-md-6 col-sm-12 contact-page-content">
@@ -163,7 +382,14 @@
               <h4 class="text-line-contact">
                 We accept
                 <br />
-                <a href="sms:604-438-4357">TEXT MESSAGES</a>
+                <a href="sms:604-438-4357">TEXT MESSAGES (SMS)</a> <br />
+                and
+                <a
+                  aria-label="Chat on WhatsApp"
+                  href="https://wa.me/16044384357"
+                  target="_blank"
+                  >WhatsApp</a
+                >
                 too!
               </h4>
             </div>
@@ -226,224 +452,6 @@
             </div>
           </div>
           <!------- Contact mail address Card end -------->
-        </div>
-      </section>
-
-      <section class="container contact-form-section">
-        <h1>Get In Touch</h1>
-
-        <!------- contact form start -------->
-        <form action="" method="post">
-          <div class="row">
-            <!------- Company field start -------->
-            <div class="col-12 col-md-12 col-sm-12">
-              <div>
-                <label for="company"
-                  >Company <span>(Optional for residential)</span></label
-                >
-                <br />
-                <input
-                  type="text"
-                  name="COMPANY"
-                  id="company"
-                  placeholder="Enter company name" />
-              </div>
-            </div>
-            <!------- Company field end -------->
-
-            <!------- First Name field start -------->
-            <div class="col-6 col-md-12 col-sm-12">
-              <div>
-                <label for="firstName">First Name <sup>*</sup> </label>
-                <br />
-                <input
-                  type="text"
-                  name="FName"
-                  id="firstName"
-                  placeholder="Enter first name" />
-              </div>
-            </div>
-            <!------- First Name  field end -------->
-
-            <!------- Last Name field start -------->
-            <div class="col-6 col-md-12 col-sm-12">
-              <div>
-                <label for="lastName">Last Name <sup>*</sup></label>
-                <br />
-                <input
-                  type="text"
-                  name="LName"
-                  id="lastName"
-                  placeholder="Enter last name" />
-              </div>
-            </div>
-            <!------- Last Name field end -------->
-
-            <!------- Email field start -------->
-            <div class="col-6 col-md-12 col-sm-12">
-              <div>
-                <label for="email">Email <sup>*</sup> </label>
-                <br />
-                <input
-                  type="email"
-                  name="EMail"
-                  id="email"
-                  placeholder="Enter email address" />
-              </div>
-            </div>
-            <!------- Email  field end -------->
-
-            <!------- subject field start -------->
-            <div class="col-6 col-md-12 col-sm-12">
-              <div>
-                <label for="subject">Subject <span>(Optional)</span> </label>
-                <br />
-                <input
-                  type="text"
-                  name="SUBJECT"
-                  id="subject"
-                  placeholder="Enter subject" />
-              </div>
-            </div>
-            <!------- subject  field end -------->
-
-            <!------- Message field start -------->
-            <div class="col-12 col-md-12 col-sm-12">
-              <div>
-                <label for="message">Message <sup>*</sup> </label>
-                <br />
-                <textarea
-                  name="MESSAGE"
-                  id="message"
-                  cols="30"
-                  rows="10"
-                  placeholder="Enter message"></textarea>
-              </div>
-            </div>
-            <!------- Message  field end -------->
-
-            <!------- Phone field start -------->
-            <div class="col-6 col-md-12 col-sm-12">
-              <div>
-                <label for="phone"
-                  >Phone <span>(Optional but helpful)</span>
-                </label>
-                <br />
-
-                <div class="row">
-                  <div class="col-7 col-md-7 col-sm-7">
-                    <input
-                      type="tel"
-                      name="TEL"
-                      id="phone"
-                      placeholder="Enter phone" />
-                  </div>
-
-                  <!------- Select field start -------->
-                  <div class="col-5 col-md-5 col-sm-5">
-                    <select name="TELTYPE" id="">
-                      <option disabled selected>Select</option>
-                      <option value="Home">Home</option>
-                      <option value="Work">Work</option>
-                      <option value="Cell">Cell</option>
-                      <option value="Day time">Day Time</option>
-                      <option value="evening">Evening</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!------- Phone  field end -------->
-
-            <!------- Alter Phone field start -------->
-            <div class="col-6 col-md-12 col-sm-12">
-              <div>
-                <label for="altPhone"
-                  >Alt. Phone <span>(Optional )</span>
-                </label>
-                <br />
-
-                <div class="row">
-                  <div class="col-7 col-md-7 col-sm-7">
-                    <input
-                      type="tel"
-                      name="ALTTEL"
-                      id="altPhone"
-                      placeholder="Enter alt. phone" />
-                  </div>
-
-                  <!------- Select field start -------->
-                  <div class="col-5 col-md-5 col-sm-5">
-                    <select name="ALTTELTYPE" id="">
-                      <option disabled selected>Select</option>
-                      <option value="Home">Home</option>
-                      <option value="Work">Work</option>
-                      <option value="Cell">Cell</option>
-                      <option value="Day time">Day Time</option>
-                      <option value="evening">Evening</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!------- Alter Phone  field end -------->
-
-            <!------- address field start -------->
-            <div class="col-12 col-md-12 col-sm-12">
-              <div>
-                <label for="address"
-                  >Address for On-Site Service Requests
-                </label>
-                <br />
-
-                <textarea
-                  name="ADDRESS"
-                  id="address"
-                  placeholder="Please remember to include apartment number and intercom/buzzer code, if any."
-                  cols="30"
-                  rows="5"></textarea>
-              </div>
-            </div>
-            <!------- address  field end -------->
-
-            <!------- terms checkbox start -------->
-            <div class="col-12 col-md-12 col-sm-12">
-              <div class="agreement-field">
-                <input
-                  type="checkbox"
-                  name="AGREE"
-                  id="agreement"
-                  value="Yes, I have read, understood and agree to the Prices, Terms of Service and Conditions."
-                  checked />
-                <label for="agreement"
-                  >Yes, I have read, understood and agree to the
-                  <a href="./prices.html"
-                    >Prices, Terms of Service and Conditions</a
-                  >.</label
-                >
-              </div>
-            </div>
-            <!------- terms checkbox start -------->
-
-            <!------- submit button start -------->
-            <div class="col-12 col-md-12 col-sm-12">
-              <div class="submit-form-btn">
-                <input
-                  type="submit"
-                  value="Submit"
-                  class="submit-btn"
-                  name="submitButtonName" />
-              </div>
-            </div>
-            <!------- submit button end -------->
-          </div>
-        </form>
-        <!------- contact form end -------->
-
-        <div class="conditions-btn">
-          <a class="terms-btn" href="./prices.html"
-            >Prices, Terms and Conditions</a
-          >
         </div>
       </section>
     </main>

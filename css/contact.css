@@ -15,7 +15,6 @@
   font-size: 40px;
   color: var(--text-primary--);
   font-weight: 800;
-  margin-bottom: 100px;
 }
 
 .contact-us-section .contact-us-card {
@@ -175,19 +174,19 @@
 
 /* ========= contact form css start ========== */
 .contact-form-section {
-  margin-top: 100px;
+  margin-top: 50px;
   max-width: 990px;
   width: 100%;
   margin-bottom: 100px;
 }
 
-.contact-form-section h1 {
+/* .contact-form-section h1 {
   text-align: center;
   font-size: 40px;
   color: var(--text-primary--);
   font-weight: 800;
   margin-bottom: 100px;
-}
+} */
 
 .contact-form-section form label {
   font-size: 18px;
@@ -215,8 +214,8 @@
 .contact-form-section form input,
 .contact-form-section form textarea {
   margin-top: 10px;
-  margin-bottom: 20px;
-  padding: 14px 22px;
+  margin-bottom: 10px;
+  padding: 10px 15px;
   background-color: #f4f4f4;
   border-radius: 5px;
   line-height: 25px;
@@ -230,8 +229,8 @@
 
 .contact-form-section form select {
   margin-top: 10px;
-  margin-bottom: 20px;
-  padding: 14px 22px;
+  margin-bottom: 10px;
+  padding: 10px 15px;
   background-color: #f4f4f4;
   border-radius: 5px;
   line-height: 25px;
@@ -241,7 +240,7 @@
   font-size: 16px;
   color: var(--text-primary--);
   font-weight: 600;
-  height: 56px;
+  height: 49px;
   cursor: pointer;
 }
 

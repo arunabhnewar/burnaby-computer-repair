@@ -583,4 +583,8 @@
     font-size: 16px;
     line-height: 25px;
   }
+
+  .page-buttons-groups {
+    flex-direction: column;
+  }
 }

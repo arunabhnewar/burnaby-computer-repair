@@ -18,6 +18,7 @@
   padding: 0 15px;
   margin-bottom: 25px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background: var(--text-white--);
 }
 .left-bg {
   background: var(--text-white--);

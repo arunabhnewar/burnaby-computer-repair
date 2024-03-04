@@ -13,19 +13,6 @@
   header .nav-right-content ul li a button {
     font-size: 18px;
   }
-
-  /* header .nav-mid-content ul li a,
-  header .nav-mid-content ul li .dropdown .dropbtn {
-    font-size: 16px;
-  }
-
-  header .nav-mid-content ul li .dropdown .dropdown-content {
-    min-width: 130px;
-  }
-
-  header .nav-mid-content ul li .dropdown .dropdown-content a {
-    font-size: 16px;
-  } */
 }
 
 /* applies to medium devices (tablets, less than 992px) */
@@ -335,10 +322,6 @@
     padding-top: 40px;
   }
 
-  /* .submit-form-btn {
-    margin: 20px auto;
-  } */
-
   .why-us-page-bottom h3 {
     font-size: 26px;
   }
@@ -350,10 +333,6 @@
   .why-us-page-bottom iframe {
     height: 300px;
   }
-
-  /* .why-us-page .why-us-page-content .why-us-img-card .why-us-page-image {
-    max-width: 160px;
-  } */
 
   .why-us-page
     .why-us-page-content
@@ -589,10 +568,6 @@
   .why-us-page-bottom iframe {
     height: 250px;
   }
-
-  /* .why-us-page .why-us-page-content .why-us-img-card .why-us-page-image {
-    max-width: 140px;
-  } */
 
   .why-us-page
     .why-us-page-content

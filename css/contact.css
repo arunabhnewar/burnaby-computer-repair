@@ -70,13 +70,14 @@
 
 .contact-us-section .contact-us-card .contact-text-left {
   text-align: left;
+  padding-top: 20px;
 }
 
 .contact-us-section .contact-us-card .help-line {
   color: var(--text-green--);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 800;
-  line-height: 40px;
+  line-height: 25px;
 }
 
 .contact-us-section .contact-us-card .help-line-contact {
@@ -101,7 +102,7 @@
   color: var(--text-secondary--);
   font-size: 18px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 .contact-us-section .contact-us-card .text-line-contact,
@@ -110,7 +111,7 @@
   color: var(--text-secondary--);
   font-size: 18px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 25px;
   text-align: left;
 }
 
@@ -139,6 +140,7 @@
   border-radius: 10px;
   position: relative;
   padding: 25px 20px 30px;
+  margin: 0 auto;
 }
 
 .contact-us-section .contact-address-card .contact-address-icon {
@@ -167,7 +169,7 @@
   font-weight: 600;
   text-align: left;
   line-height: 24px;
-  margin-bottom: 50px;
+  padding-top: 20px;
 }
 
 .contact-us-section .contact-address-card .address-txt strong {
